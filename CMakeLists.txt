@@ -29,6 +29,9 @@ SET(IPDEVSDK "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.
 #uncomment to build WFAPITestClient (if linux build) linked to MapLibNG:
 #SET(LINKWITH_MAPLIBNG YES)
 
+#uncomment to build WFAPITestClient with sound support (requires the ogg123 binary installed)
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DHAVE_OGG123")
+
 #end of user customizable settings
 
 

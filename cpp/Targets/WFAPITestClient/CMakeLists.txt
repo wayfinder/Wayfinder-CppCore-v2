@@ -6,8 +6,6 @@ SET(GTKMAPLIBSRCPATH "../MapLib/Client/GtkDevClient/src/")
 # Set the image directory to MapLib
   SET(IMAGEDIR "../MapLib/Client/GtkDevClient/images")
   SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DIMAGE_DIR=\\\"${IMAGEDIR}\\\"")
-# Set if ogg playback should be enabled
-# SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DHAVE_OGG123")
 # Set if scratchbox is acting up
 # SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-poison-system-directories")
 
