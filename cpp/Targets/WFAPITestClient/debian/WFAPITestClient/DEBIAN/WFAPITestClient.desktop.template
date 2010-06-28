@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=#ver#
+Type=Application
+Name=WFAPITestClient
+Comment=WFAPITestClient
+Exec=/usr/bin/WFAPITestClient
+Icon=WFAPITestClient.png
+X-Window-Icon=WFAPITestClient.png
+X-Window-Icon-Dimmed=WFAPITestClient.png
+X-Osso-Service=com.wayfinder.WFAPITestClient
+X-Osso-Type=application/x-executable

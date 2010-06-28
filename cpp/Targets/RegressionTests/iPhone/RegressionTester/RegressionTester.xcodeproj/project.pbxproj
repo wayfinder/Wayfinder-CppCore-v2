@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RegressionTesterAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RegressionTesterAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		264C533A1002251400A6859E /* nav2data in Resources */ = {isa = PBXBuildFile; fileRef = 264C53331002251400A6859E /* nav2data */; };
+		268379E90FFD050900CFF81E /* libWFNav2API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268379E80FFD050900CFF81E /* libWFNav2API.a */; };
+		268379F60FFD057100CFF81E /* libWFMapAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268379F50FFD057100CFF81E /* libWFMapAPI.a */; };
+		268379F80FFD057900CFF81E /* RegressionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268379F70FFD057900CFF81E /* RegressionTests.a */; };
+		268379FA0FFD058300CFF81E /* libWFCommonAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268379F90FFD058300CFF81E /* libWFCommonAPI.a */; };
+		26837A2B0FFD078900CFF81E /* TestWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26837A2A0FFD078900CFF81E /* TestWrapper.mm */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		2B35E572100F92C300AEC85F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B35E571100F92C300AEC85F /* CoreLocation.framework */; };
+		2BA23E94100C9CC4003F1DEF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA23E93100C9CC4003F1DEF /* CFNetwork.framework */; };
+		A065DC8F108F2DBC00FF6E8E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A065DC8E108F2DBC00FF6E8E /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RegressionTesterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegressionTesterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RegressionTesterAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RegressionTesterAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* RegressionTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegressionTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		260DEBA71006515D009549FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264C53331002251400A6859E /* nav2data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = nav2data; path = ./nav2data; sourceTree = SOURCE_ROOT; };
+		268379E80FFD050900CFF81E /* libWFNav2API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWFNav2API.a; path = "../../../../Objs/fat-iphone-v3/Targets/Nav2API/libWFNav2API.a"; sourceTree = SOURCE_ROOT; };
+		268379F50FFD057100CFF81E /* libWFMapAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWFMapAPI.a; path = "../../../../Objs/fat-iphone-v3/Targets/MapLib/libWFMapAPI.a"; sourceTree = SOURCE_ROOT; };
+		268379F70FFD057900CFF81E /* RegressionTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = RegressionTests.a; path = "../../../../Objs/arm-iphone-v3/Targets/RegressionTests/RegressionTests.a"; sourceTree = SOURCE_ROOT; };
+		268379F90FFD058300CFF81E /* libWFCommonAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWFCommonAPI.a; path = "../../../../Objs/fat-iphone-v3/Targets/CommonLib/libWFCommonAPI.a"; sourceTree = SOURCE_ROOT; };
+		26837A2A0FFD078900CFF81E /* TestWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestWrapper.mm; path = Classes/TestWrapper.mm; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B35E571100F92C300AEC85F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2BA23E93100C9CC4003F1DEF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		32CA4F630368D1EE00C91783 /* RegressionTester_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegressionTester_Prefix.pch; sourceTree = "<group>"; };
+		A065DC8E108F2DBC00FF6E8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				268379E90FFD050900CFF81E /* libWFNav2API.a in Frameworks */,
+				268379F60FFD057100CFF81E /* libWFMapAPI.a in Frameworks */,
+				268379F80FFD057900CFF81E /* RegressionTests.a in Frameworks */,
+				268379FA0FFD058300CFF81E /* libWFCommonAPI.a in Frameworks */,
+				2BA23E94100C9CC4003F1DEF /* CFNetwork.framework in Frameworks */,
+				2B35E572100F92C300AEC85F /* CoreLocation.framework in Frameworks */,
+				A065DC8F108F2DBC00FF6E8E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* RegressionTesterAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RegressionTesterAppDelegate.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RegressionTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				26837A2A0FFD078900CFF81E /* TestWrapper.mm */,
+				32CA4F630368D1EE00C91783 /* RegressionTester_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				260DEBA71006515D009549FD /* Info.plist */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				264C53331002251400A6859E /* nav2data */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B35E571100F92C300AEC85F /* CoreLocation.framework */,
+				2BA23E93100C9CC4003F1DEF /* CFNetwork.framework */,
+				268379F90FFD058300CFF81E /* libWFCommonAPI.a */,
+				268379F70FFD057900CFF81E /* RegressionTests.a */,
+				268379F50FFD057100CFF81E /* libWFMapAPI.a */,
+				268379E80FFD050900CFF81E /* libWFNav2API.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				A065DC8E108F2DBC00FF6E8E /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RegressionTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RegressionTester" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegressionTester;
+			productName = RegressionTester;
+			productReference = 1D6058910D05DD3D006BFB54 /* RegressionTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RegressionTester" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RegressionTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				264C533A1002251400A6859E /* nav2data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RegressionTesterAppDelegate.mm in Sources */,
+				26837A2B0FFD078900CFF81E /* TestWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RegressionTester_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Objs/fat-iphone-v3/Targets/Nav2API\"",
+					"\"$(SRCROOT)/../../../../Objs/fat-iphone-v3/Targets/MapLib\"",
+					"\"$(SRCROOT)/../../../../Objs/arm-iphone-v3/Targets/RegressionTests\"",
+					"\"$(SRCROOT)/../../../../Objs/fat-iphone-v3/Targets/CommonLib\"",
+				);
+				PRODUCT_NAME = RegressionTester;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RegressionTester_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Objs/fat-iphone-v3/Targets/Nav2API\"",
+					"\"$(SRCROOT)/../../../../Objs/fat-iphone-v3/Targets/MapLib\"",
+					"\"$(SRCROOT)/../../../../Objs/arm-iphone-v3/Targets/RegressionTests\"",
+					"\"$(SRCROOT)/../../../../Objs/fat-iphone-v3/Targets/CommonLib\"",
+				);
+				PRODUCT_NAME = RegressionTester;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../,
+					../../Export/include/Shared,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lz";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RegressionTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RegressionTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

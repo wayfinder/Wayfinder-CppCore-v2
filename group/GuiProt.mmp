@@ -1,0 +1,58 @@
+TARGET               GuiProt.lib
+TARGETTYPE           lib
+
+#ifdef WINSCW
+MACRO               __WINS__
+MACRO               __WINSCW__
+#else
+MACRO				__GCCE__
+#endif
+MACRO               __SYMBIAN32__
+MACRO               __SYMBIAN__
+MACRO               NAV2_USE_UTF8
+MACRO               SYMBIAN_7S
+MACRO               SYMBIAN_9
+MACRO               SYMBIAN_AVKON
+MACRO               NAV2_CLIENT_SERIES60_V3
+MACRO               NAV2_CLIENT_SERIES60_V5
+MACRO               RELEASE_DEFAULT_BRONZE_SUPER_DEMO
+
+USERINCLUDE        ..\cpp\include
+USERINCLUDE        ..\cpp\Modules\include
+USERINCLUDE        ..\cpp\include\GuiProt
+USERINCLUDE        ..\cpp\include\symbian-r6
+USERINCLUDE        ..\Resources\Loc
+USERINCLUDE        ..\cpp\Targets\CommonLib\include
+USERINCLUDE        ..\cpp\Targets\CommonLib\Export\include
+USERINCLUDE        ..\cpp\arch-include\symbian-r6
+USERINCLUDE        ..\cpp\Targets\CommonLib\S60\include
+
+SYSTEMINCLUDE       \epoc32\include
+SYSTEMINCLUDE       \epoc32\include\variant
+SYSTEMINCLUDE       \epoc32\include\mmf\plugin
+SYSTEMINCLUDE       \epoc32\include\stdapis
+SYSTEMINCLUDE       \epoc32\include\stdapis\sys
+SYSTEMINCLUDE       \epoc32\include\stdapis\stlport
+SYSTEMINCLUDE       \epoc32\include\stdapis\stlport\stl
+
+
+SOURCEPATH           ..\cpp\Shared\GuiProt  
+SOURCE               Favorite.cpp
+SOURCE               GeneralParamReceiver.cpp
+SOURCE               GuiProtFavoriteMess.cpp
+SOURCE               GuiProtFileMess.cpp
+SOURCE               GuiProtMapMess.cpp
+SOURCE               GuiProtMess.cpp
+SOURCE               GuiProtMessageHandler.cpp
+SOURCE               GuiProtRouteMess.cpp
+SOURCE               GuiProtSearchMess.cpp
+SOURCE               GuiRequestFailed.cpp
+SOURCE               MapClasses.cpp
+SOURCE               SearchPrintingPolicy.cpp
+SOURCE               SearchPrintingPolicyFactory.cpp
+SOURCE               SearchPrintingPolicySwedish.cpp
+SOURCE               Serializable.cpp
+SOURCE               VectorMapCoordinates.cpp
+
+OPTION CW -wchar_t on
+MACRO  _WCHAR_T_DECLARED

@@ -1,0 +1,8 @@
+This is the repository for the C++ Core version 2, developed by Wayfinder.
+It is released under the BSD license.
+
+C++ Core version 2 provides the core engine for building navigation clients for different platforms, such as iPhone and Linux. It contains functionality for routing, turn-by-turn navigation and searching.
+
+The release version of C++ Core version 2 can be used for building the libraries used in the iPhone Navigator client.
+
+More information about C++ Core version 2 and how to build it can be found at oss.wayfinder.com

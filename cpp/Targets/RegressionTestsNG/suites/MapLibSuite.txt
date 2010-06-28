@@ -1,0 +1,17 @@
+WorkThreadTest
+GestureDetectorTest
+VelocityTrackerTest
+PALRunLoopTest
+MercatorMathTests
+BufferRequesterTest DXX true
+BufferRequesterTest ZALLE_ANKA_REGTEST_CPP false
+BufferRequestChainTest
+WFMapParamFactoryTest
+OSMImageMapGridTest
+OSMMapFactoryTest
+ImageMapModuleTest
+MapParamCancelTest
+FMathTest
+NetworkReqTest
+#ProjectionInterfaceTest
+

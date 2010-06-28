@@ -1,0 +1,27 @@
+/*
+========================================================================
+ Name        : WFAPITestClientContainer.l01
+ Author      : 
+ Copyright   : Your copyright notice
+ Description : 
+========================================================================
+*/
+// localized strings for language: UK English (01)
+#define STR_WFAPITestClientContainerView_3 "WFAPITestClientContainer"
+#define STR_WFAPITestClientContainerView_1 ""
+#define STR_WFAPITestClientContainerView_2 ""
+#define STR_WFAPITestClientContainerView_10 "Default route"
+#define STR_WFAPITestClientContainerView_11 "Simulation start"
+#define STR_WFAPITestClientContainerView_13 "Simulation stop"
+#define STR_WFAPITestClientContainerView_14 "Simulation repeat"
+#define STR_WFAPITestClientContainerView_4 "Route tests"
+#define STR_WFAPITestClientContainerView_5 "Between coords"
+#define STR_WFAPITestClientContainerView_6 "To coord"
+#define STR_WFAPITestClientContainerView_7 "To favourite"
+#define STR_WFAPITestClientContainerView_9 "To search item"
+#define STR_WFAPITestClientContainerView_15 "Load to buffer"
+#define STR_WFAPITestClientContainerView_16 "Load to file"
+#define STR_WFAPITestClientContainerView_8 "Image tests"
+#define STR_WFAPITestClientContainerView_17 "Location tests"
+#define STR_WFAPITestClientContainerView_18 "Start LBS service"
+#define STR_WFAPITestClientContainerView_19 "Stop LBS service"

@@ -1,0 +1,1568 @@
+/*
+  Copyright (c) 1999 - 2010, Vodafone Group Services Ltd
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+  * Neither the name of the Vodafone Group Services Ltd nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#ifndef MASTER_US_LOC
+#define MASTER_US_LOC
+#define WAYFINDER_EXE_ISO_639_TWO_CAPITAL_CHARS_LANGUAGE_CODE_STRING "US"
+#define WAYFINDER_EXE_SYMBIAN_TWO_CAPITAL_CHARS_LANGUAGE_CODE_STRING "AM"
+#include "master_EN_common.loc"
+#undef qtn_bio_ctrl_favorite
+#define qtn_bio_ctrl_favorite          "Favorite"
+#undef qtn_bio_ctrl_parse_error
+#define qtn_bio_ctrl_parse_error          "The message contains an error and Wayfinder cannot open it. "
+#undef qtn_bio_ctrl_to
+#define qtn_bio_ctrl_to          "To"
+#undef qtn_bio_ctrl_unknown_new_type
+#define qtn_bio_ctrl_unknown_new_type          "This message cannot be used with Wayfinder."
+#undef qtn_bio_ctrl_unknown_type
+#define qtn_bio_ctrl_unknown_type          "This message cannot be used with Wayfinder."
+#undef qtn_callcenter_call_item
+#define qtn_callcenter_call_item          "Call"
+#undef qtn_callcenter_help_common_0
+#define qtn_callcenter_help_common_0          "The call center can help you to find your destination, e.g. while driving. The call center sends you a destination SMS. Wayfinder then automatically navigates to the destination in the SMS. This service is available from 9 am to 5 pm, Monday - Friday. Choose \"Get destination SMS\" in order to get assistance fo find your location. "
+#undef qtn_callcenter_number
+#define qtn_callcenter_number          "Call center number"
+#undef qtn_callcenter_savednumber_msg
+#define qtn_callcenter_savednumber_msg          "The number has been saved"
+#undef qtn_callcenter_tab
+#define qtn_callcenter_tab          "Call center"
+#undef qtn_callcenter_user
+#define qtn_callcenter_user          "Cell phone number"
+#undef qtn_cannot_open_page_desc
+#define qtn_cannot_open_page_desc          "Please check your Internet connection and try again"
+#undef qtn_CATEGORIES_NONE
+#define qtn_CATEGORIES_NONE          "None"
+#undef qtn_CAT_FERRY
+#define qtn_CAT_FERRY          "Ferry terminal"
+#undef qtn_CAT_MUSEUM
+#define qtn_CAT_MUSEUM          "Museum"
+#undef qtn_CAT_NIGHTLIFE
+#define qtn_CAT_NIGHTLIFE          "Nightlife"
+#undef qtn_CITY_GUIDE
+#define qtn_CITY_GUIDE          "City guide"
+#undef qtn_comm_wrong_sim
+#define qtn_comm_wrong_sim          "This service isn't supported by your network operator."
+#undef qtn_connect_address
+#define qtn_connect_address          "Recipient address"
+#undef qtn_connect_contents
+#define qtn_connect_contents          "Contents"
+#undef qtn_connect_current_destination
+#define qtn_connect_current_destination          "Current destination"
+#undef qtn_connect_current_position
+#define qtn_connect_current_position          "Current position"
+#undef qtn_connect_current_route
+#define qtn_connect_current_route          "Current route"
+#undef qtn_connect_email_item
+#define qtn_connect_email_item          "E-mail"
+#undef qtn_connect_fail
+#define qtn_connect_fail          "Message contains errors. Please check the entered information. "
+#undef qtn_connect_fail_body
+#define qtn_connect_fail_body          "Message contains errors. Please check the entered information. "
+#undef qtn_connect_fail_originator
+#define qtn_connect_fail_originator          "Sender address is invalid. Please check your messaging settings. "
+#undef qtn_connect_fail_recipient
+#define qtn_connect_fail_recipient          "Recipient address is invalid. Please check the entered address. "
+#undef qtn_connect_find_in_phonebook
+#define qtn_connect_find_in_phonebook          "Find in Contacts"
+#undef qtn_connect_format
+#define qtn_connect_format          "Format"
+#undef qtn_connect_help_common_1
+#define qtn_connect_help_common_1          "Specify in the \"Format\" field if you are sending a SMS/MMS to another Wayfinder user (who will be able to use the sent position as a origin, destination or favorite) or if the message should be sent as plain text. Choose \"Text and images\" if you want a map to be attached in the email.\n\nSpecify in the \"Content\" field if you are sending your current route, current destination or current position.\n\nYou can also add a personal message in the \"Personal message\" field. Use \"Send\" in the options menu to deliver your message. "
+#undef qtn_connect_mail_subject
+#define qtn_connect_mail_subject          "Wayfinder message"
+#undef qtn_connect_message
+#define qtn_connect_message          "Personal message"
+#undef qtn_connect_messages_sent
+#define qtn_connect_messages_sent          "Messages sent"
+#undef qtn_connect_mms_item
+#define qtn_connect_mms_item          "Multimedia message"
+#undef qtn_connect_no_current_destination
+#define qtn_connect_no_current_destination          "You have not set a destination. "
+#undef qtn_connect_no_current_position
+#define qtn_connect_no_current_position          "No known current position."
+#undef qtn_connect_no_matches_found
+#define qtn_connect_no_matches_found          "No matches for this entry were found in your contacts. "
+#undef qtn_connect_personal_current_destination
+#define qtn_connect_personal_current_destination          "My current destination"
+#undef qtn_connect_personal_current_position
+#define qtn_connect_personal_current_position          "My current position"
+#undef qtn_connect_personal_current_route
+#define qtn_connect_personal_current_route          "My current route"
+#undef qtn_connect_personal_my_favorite
+#define qtn_connect_personal_my_favorite          "One of my stored favorites."
+#undef qtn_connect_plain_text
+#define qtn_connect_plain_text          "Plain text"
+#undef qtn_connect_select_item
+#define qtn_connect_select_item          "Select"
+#undef qtn_connect_select_one_entry
+#define qtn_connect_select_one_entry          "Please select only one entry"
+#undef qtn_connect_send_favorite
+#define qtn_connect_send_favorite          "Selected favorite"
+#undef qtn_connect_send_item
+#define qtn_connect_send_item          "Send"
+#undef qtn_connect_send_sms_header
+#define qtn_connect_send_sms_header          "Sent"
+#undef qtn_connect_service_not_defined
+#define qtn_connect_service_not_defined          "Message could not be sent. Please select the type of message you wish to send. "
+#undef qtn_connect_sms_item
+#define qtn_connect_sms_item          "Text message"
+#undef qtn_connect_text_and_images
+#define qtn_connect_text_and_images          "Text and images"
+#undef qtn_connect_transmit
+#define qtn_connect_transmit          "Transmit as"
+#undef qtn_connect_unsent_messages
+#define qtn_connect_unsent_messages          "You have unsent messages in your outbox. Please open the outbox in the messaging feature and then manually select Send. "
+#undef qtn_connect_wayfinder_recipient
+#define qtn_connect_wayfinder_recipient          "Wayfinder"
+#undef qtn_contacts_navigate_item
+#define qtn_contacts_navigate_item          "Navigate"
+#undef qtn_destination_destination
+#define qtn_destination_destination          "Destination"
+#undef qtn_destination_distance
+#define qtn_destination_distance          "Distance"
+#undef qtn_destination_help_common_0
+#define qtn_destination_help_common_0          "The Destination view shows the name of your destination, the distance remaining, the estimated time to the destination and the estimated time of arrival. The compass shows the direction to the destination. "
+#undef qtn_destination_show_item
+#define qtn_destination_show_item          "Show on map"
+#undef qtn_EARTH_IM_IN
+#define qtn_EARTH_IM_IN          "I'm currently in"
+#undef qtn_earth_send_sms_reg_msg
+#define qtn_earth_send_sms_reg_msg          "To be able to use Wayfinder Earth you must allow the application to send an activation text message. Send text message now? If not the application will close."
+#undef qtn_EARTH_UPGRADE_GPS
+#define qtn_EARTH_UPGRADE_GPS          "You need to upgrade Earth to use the GPS functionality. Please visit the Mobile shop for instant upgrade! Do you want to upgrade now?"
+#undef qtn_EARTH_UPGRADE_ROUTE
+#define qtn_EARTH_UPGRADE_ROUTE          "To be able to calculate a route you need to upgrade your Wayfinder Earth. Please visit the Mobile shop to upgrade. Upgrade now?"
+#undef qtn_EARTH_VIEW_WEATHER
+#define qtn_EARTH_VIEW_WEATHER          "View weather"
+#undef qtn_error_cant_connect_to_internet
+#define qtn_error_cant_connect_to_internet          "Unable to connect to the Internet with the selected Internet access point. Please select another access point in the Wayfinder settings or contact your telecom provider. "
+#undef qtn_EXTEND_BUY_NOW
+#define qtn_EXTEND_BUY_NOW          "Buy now"
+#undef qtn_favorites_help_common_1
+#define qtn_favorites_help_common_1          "On the \"Manage favorites\" submenu on the Options menu you can save your position (if a GPS is connected), edit or remove a favorite, or synchronize favorites in your phone with the ones on your MyWayfinder.com account."
+#undef qtn_favorites_help_gps_1
+#define qtn_favorites_help_gps_1          "Favorites consist of your saved locations"
+#undef qtn_favorites_help_no_gps_1
+#define qtn_favorites_help_no_gps_1          "Favorites consist of your saved locations"
+#undef qtn_favorites_help_no_trial_1
+#define qtn_favorites_help_no_trial_1          "To access equivalent favorites on your personal navigation page at MyWayfinder.com and in your cell phone, you can synchronize your favorites by selecting Manage > Synchronize on the Options menu. "
+#undef qtn_fav_save_item
+#define qtn_fav_save_item          "Save"
+#undef qtn_FREE_DOWNLOADS
+#define qtn_FREE_DOWNLOADS          "Free downloads"
+#undef qtn_FRIENDS_PHONE_NO
+#define qtn_FRIENDS_PHONE_NO          "Mobile phone number"
+#undef qtn_GENERAL
+#define qtn_GENERAL          "General"
+#undef qtn_GENERAL_TIP_10
+#define qtn_GENERAL_TIP_10          "Did you know you can upgrade Navigator in the Mobile shop?"
+#undef qtn_GENERAL_TIP_3
+#define qtn_GENERAL_TIP_3          "Did you know that you use less GPRS data in the guide view? "
+#undef qtn_GENERAL_TIP_4
+#define qtn_GENERAL_TIP_4          "Did you know that you can use Navigator in Pedestrian mode? "
+#undef qtn_GENERAL_TIP_5
+#define qtn_GENERAL_TIP_5          "Did you know that you can simulate a route by selecting “play route” in the route planner? "
+#undef qtn_GENERAL_TIP_6
+#define qtn_GENERAL_TIP_6          "Did you know that you can center the cursor by pressing 3 in the map view?"
+#undef qtn_GENERAL_TIP_7
+#define qtn_GENERAL_TIP_7          "Did you know that you can add favorites online at mywayfinder.com?"
+#undef qtn_GENERAL_TIP_8
+#define qtn_GENERAL_TIP_8          "Did you know that the entire manual is available at mywayfinder.com?"
+#undef qtn_GENERAL_TIP_9
+#define qtn_GENERAL_TIP_9          "Did you know that you can avoid toll roads by changing the settings? "
+#undef qtn_GET_ROUTE
+#define qtn_GET_ROUTE          "Get route"
+#undef qtn_go_to_home_page
+#define qtn_go_to_home_page          "Go to website"
+#undef qtn_gps_connect_bt_item
+#define qtn_gps_connect_bt_item          "Bluetooth GPS"
+#undef qtn_gps_connect_builtin_item
+#define qtn_gps_connect_builtin_item          "Built-in GPS"
+#undef qtn_guide_help_common_0
+#define qtn_guide_help_common_0          "The guide view guides you to your destination with pictures and voice instructions.\n\nThe main picture shows your next turn. The smaller picture in the upper right corner shows the upcoming event after that. If you have started a detour due to circumstances in the traffic, eg. road works, a detour icon will be shown in the upper right corner, or if there are traffic cameras on your route, a camera icon will be shown in the lower right corner (when optimize the route for traffic info is selected in the settings submenu). The name of the current street is shown in the lower left corner and the name of the next street is shown in the upper left corner. The progress bar to the right shows the distance to the next turn. To show the turn in a map, select \"Show turn\" in the options menu. "
+#undef qtn_guide_help_gps_1
+#define qtn_guide_help_gps_1          "The voice instructions will tell you after approximately 100 meters if you leave the route. You can reroute manually by pressing the joystick or selecting \"Reroute\" in the options menu. To activate the automatic reroute function go to the settings and select the route tab. If the automatic reroute function is activated a new route will automatically be calculated as soon as you leave the route. "
+#undef qtn_guide_reroute_item
+#define qtn_guide_reroute_item          "Reroute"
+#undef qtn_guide_show_nextturn
+#define qtn_guide_show_nextturn          "Next turn"
+#undef qtn_guide_show_previousturn
+#define qtn_guide_show_previousturn          "Previous turn"
+#undef qtn_guide_show_route_item
+#define qtn_guide_show_route_item          "Show route"
+#undef qtn_guide_tab
+#define qtn_guide_tab          "Guide"
+#undef qtn_guide_voice_item
+#define qtn_guide_voice_item          "Voice instruction"
+#undef qtn_gwf_precached_not_with_orig_mmc
+#define qtn_gwf_precached_not_with_orig_mmc          "Installation cannot proceed with the original memory card installed.\nPlease remove the memory card and try again. "
+#undef qtn_hide_privacy_statement
+#define qtn_hide_privacy_statement          "Don't show again"
+#undef qtn_info_help_common_0
+#define qtn_info_help_common_0          "The Info view shows your current position, speed and direction. By choosing \"Show where I am\" on the options menu, your current position will be shown on the map. "
+#undef qtn_info_lat_minus_sign
+#define qtn_info_lat_minus_sign          "S"
+#undef qtn_info_lat_plus_sign
+#define qtn_info_lat_plus_sign          "N"
+#undef qtn_info_lon_minus_sign
+#define qtn_info_lon_minus_sign          "W"
+#undef qtn_info_lon_plus_sign
+#define qtn_info_lon_plus_sign          "E"
+#undef qtn_info_show_item
+#define qtn_info_show_item          "Show where I am"
+#undef qtn_info_tab
+#define qtn_info_tab          "Info"
+#undef qtn_install_active_synch
+#define qtn_install_active_synch          "You need to have ActiveSync 4.5 installed to be able to install Wayfinder Navigator. Please visit microsoft.com to download and install ActiveSync free of charge."
+#undef qtn_itinerary_help_common_1
+#define qtn_itinerary_help_common_1          "To show a specific turn on the map, highlight it and select \"Show turn\" from the Options menu."
+#undef qtn_itinerary_start
+#define qtn_itinerary_start          "Start at"
+#undef qtn_itinerary_voice_item
+#define qtn_itinerary_voice_item          "Voice instruction"
+#undef qtn_java_alert_favorites_empty
+#define qtn_java_alert_favorites_empty          "Your list of favorites is currently empty, but you can add new ones by selecting \"Save as favorite\" in the Find and Map views."
+#undef qtn_java_cmd_delete
+#define qtn_java_cmd_delete          "Delete"
+#undef qtn_java_cmd_quit
+#define qtn_java_cmd_quit          "Exit"
+#undef qtn_java_comm_emailing
+#define qtn_java_comm_emailing          "Sending e-mail"
+#undef qtn_java_comm_favs_sync
+#define qtn_java_comm_favs_sync          "Synchronizing"
+#undef qtn_java_comm_noaccess
+#define qtn_java_comm_noaccess          "Access denied"
+#undef qtn_java_comm_nocoverage
+#define qtn_java_comm_nocoverage          "No map coverage"
+#undef qtn_java_comm_nomoreact
+#define qtn_java_comm_nomoreact          "No additional activations allowed with this code."
+#undef qtn_java_comm_noservice
+#define qtn_java_comm_noservice          "Service denied"
+#undef qtn_java_comm_smsing
+#define qtn_java_comm_smsing          "Sending SMS"
+#undef qtn_java_comm_usedcode
+#define qtn_java_comm_usedcode          "Activation code seems to be in use on another phone.\nYou must reactivate Wayfinder Navigator™ on this phone."
+#undef qtn_java_edit_favorite_failed_error
+#define qtn_java_edit_favorite_failed_error          "Save error. You may need to delete some favorites."
+#undef qtn_java_edit_favorite_failed_fields
+#define qtn_java_edit_favorite_failed_fields          "All fields must be filled out"
+#undef qtn_java_edit_favorite_not_saved
+#define qtn_java_edit_favorite_not_saved          "Changes have not been saved"
+#undef qtn_java_edit_favorite_title
+#define qtn_java_edit_favorite_title          "Edit favorite"
+#undef qtn_java_extra_services
+#define qtn_java_extra_services          "Extra services"
+#undef qtn_java_list_favorite_cfrm_title
+#define qtn_java_list_favorite_cfrm_title          "Delete favorite"
+#undef qtn_java_list_favorite_del_failed
+#define qtn_java_list_favorite_del_failed          "Could not delete favorite. Please try again."
+#undef qtn_java_main_favorites
+#define qtn_java_main_favorites          "View your favorites"
+#undef qtn_java_main_quit
+#define qtn_java_main_quit          "Exit Wayfinder Navigator™"
+#undef qtn_java_no_coordinates
+#define qtn_java_no_coordinates          "The search results have no coordinates and can therefore not be used for navigation purposes.\n\nThis happens, for example, for companies or individuals with PO boxes listed as their only addresses."
+#undef qtn_java_plan_route
+#define qtn_java_plan_route          "Plan route"
+#undef qtn_java_red_line
+#define qtn_java_red_line          "Navigation map "
+#undef qtn_java_route_error_both
+#define qtn_java_route_error_both          "You must select both a starting point and a destination"
+#undef qtn_java_route_error_too_long
+#define qtn_java_route_error_too_long          "The distance between the starting point and the destination is too long for this phone"
+#undef qtn_java_route_selfav
+#define qtn_java_route_selfav          "Select a favorite"
+#undef qtn_java_sendtoview_enter_manually_choice
+#define qtn_java_sendtoview_enter_manually_choice          "Enter manually"
+#undef qtn_java_set_langwarn
+#define qtn_java_set_langwarn          "You have changed the language. For this to take effect, Wayfinder Navigator™ must exit. Do you wish to exit?"
+#undef qtn_lwf_first_stage_err_corrupt
+#define qtn_lwf_first_stage_err_corrupt          "Installation incomplete "
+#undef qtn_lwf_softkey_ok
+#define qtn_lwf_softkey_ok          "OK"
+#undef qtn_map_center_item
+#define qtn_map_center_item          "center"
+#undef qtn_map_destination_item
+#define qtn_map_destination_item          "Show destination"
+#undef qtn_map_fullscreen_item
+#define qtn_map_fullscreen_item          "Full screen"
+#undef qtn_map_help_common_1_map
+#define qtn_map_help_common_1_map          "The map view allows you to pick a point on the map and navigate, zoom to the destination, origin or route. You can select a point of interest and get detailed information, save a favorite and much more.\n\nZoom to the desired location by using the keypad ([5]=zoom in, [0]=zoom out) or the zoom alternatives in the options menu. The full screen mode allows you to move the map using the joystick.\n\nYou have chosen vector maps in the settings. Image maps require less frequent connections to the Internet, i.e. it is a transmission cost-saving alternative. Vector maps are more dynamic and seamless (you can move around in the maps without any edges).\n\nIf you have Wayfinder Navigator you are able to download a map area at MyWayfinder.com and transfer it to your phone. "
+#undef qtn_map_help_common_2_map
+#define qtn_map_help_common_2_map          "\n\nIn the settings you can choose which points of interest (categories) you want to be shown in the map. You can also select if you want your favorites to be shown as symbols in the map. Choose between \"Always\", \"City level\" or \"Never\".\n\nIf you have started a detour due to circumstances in the traffic, eg. road works, or if there are traffic cameras on your route, an icon will be shown in the map view (when optimize the route for traffic info is selected in the settings submenu). "
+#undef qtn_map_help_gps_1
+#define qtn_map_help_gps_1          "You can pick a point on the map and navigate. Zoom to the desired location and use the cross-hair symbol in the center of the map to mark the desired destination. Press the joystick and the name of the place as well as additional information, such as opening hours and phone number, will be shown in a pop-up. Select \"Navigate to\" or another option from the options menu. You will be guided to the destination with voice instructions.\n\n"
+#undef qtn_map_help_gps_2
+#define qtn_map_help_gps_2          "Do you want to see your current position on the map? Activate the feature on the Settings > Map tab. "
+#undef qtn_map_origin_item
+#define qtn_map_origin_item          "Show start"
+#undef qtn_map_reroute_item
+#define qtn_map_reroute_item          "Reroute"
+#undef qtn_map_tab
+#define qtn_map_tab          "Map"
+#undef qtn_map_trackingon_item
+#define qtn_map_trackingon_item          "Tracking on"
+#undef qtn_map_viewcurrent_item
+#define qtn_map_viewcurrent_item          "To position"
+#undef qtn_map_viewdestination_item
+#define qtn_map_viewdestination_item          "To destination"
+#undef qtn_map_vieworigin_item
+#define qtn_map_vieworigin_item          "To starting point"
+#undef qtn_map_viewroute_item
+#define qtn_map_viewroute_item          "To route"
+#undef qtn_map_view_menu_item
+#define qtn_map_view_menu_item          "Show"
+#undef qtn_map_zoom_item
+#define qtn_map_zoom_item          "Zoom"
+#undef qtn_MSHOP_WELCOME
+#define qtn_MSHOP_WELCOME          "Welcome"
+#undef qtn_mwf_done_installation
+#define qtn_mwf_done_installation          "First stage of copying Wayfinder complete. Run GetWayfinder to complete the installation. If you wish to install Wayfinder on another memory card, replace the memory card before starting GetWayfinder."
+#undef qtn_mwf_failed_gwf_installation
+#define qtn_mwf_failed_gwf_installation          "Installation of GetWayfinder failed. Please try again. "
+#undef qtn_mwf_softkey_ok
+#define qtn_mwf_softkey_ok          "OK"
+#undef qtn_mydest_description
+#define qtn_mydest_description          "Description"
+#undef qtn_mydest_destination_item
+#define qtn_mydest_destination_item          "Set as destination"
+#undef qtn_mydest_edit_item
+#define qtn_mydest_edit_item          "Edit"
+#undef qtn_mydest_empty
+#define qtn_mydest_empty          "\tNo favorites saved\tSelect synchronize on the Options menu."
+#undef qtn_mydest_empty_no_synchronize
+#define qtn_mydest_empty_no_synchronize          "\tNo favorites saved"
+#undef qtn_mydest_name
+#define qtn_mydest_name          "Name"
+#undef qtn_mydest_navigate_item
+#define qtn_mydest_navigate_item          "Navigate to"
+#undef qtn_mydest_remove_item
+#define qtn_mydest_remove_item          "Remove"
+#undef qtn_mydest_show_item
+#define qtn_mydest_show_item          "Show on map"
+#undef qtn_mydest_sync_item
+#define qtn_mydest_sync_item          "Synchronize"
+#undef qtn_mydest_tab
+#define qtn_mydest_tab          "Favorites"
+#undef qtn_newdest_category_item
+#define qtn_newdest_category_item          "Select category"
+#undef qtn_newdest_city
+#define qtn_newdest_city          "City or ZIP code"
+#undef qtn_newdest_city_item
+#define qtn_newdest_city_item          "Select city"
+#undef qtn_newdest_country
+#define qtn_newdest_country          "Country/State"
+#undef qtn_newdest_country_item
+#define qtn_newdest_country_item          "Select country"
+#undef qtn_newdest_destination_item
+#define qtn_newdest_destination_item          "Set as destination"
+#undef qtn_newdest_empty
+#define qtn_newdest_empty          "\tNo destinations\tSelect back on the Options menu"
+#undef qtn_newdest_house_number
+#define qtn_newdest_house_number          "Street number"
+#undef qtn_newdest_navigate_item
+#define qtn_newdest_navigate_item          "Navigate to"
+#undef qtn_newdest_next_25_hits
+#define qtn_newdest_next_25_hits          "Next 25"
+#undef qtn_newdest_next_25_search_hits
+#define qtn_newdest_next_25_search_hits          "Next 25 search results"
+#undef qtn_newdest_prev_10_hits
+#define qtn_newdest_prev_10_hits          "Previous 10"
+#undef qtn_newdest_prev_10_search_hits
+#define qtn_newdest_prev_10_search_hits          "Previous 10 search hits"
+#undef qtn_newdest_prev_25_hits
+#define qtn_newdest_prev_25_hits          "Previous 25"
+#undef qtn_newdest_prev_25_search_hits
+#define qtn_newdest_prev_25_search_hits          "Previous 25 search results"
+#undef qtn_newdest_reset
+#define qtn_newdest_reset          "Remove search input"
+#undef qtn_newdest_save_item
+#define qtn_newdest_save_item          "Add to favorites"
+#undef qtn_newdest_search_item
+#define qtn_newdest_search_item          "Search"
+#undef qtn_newdest_selsearch_item
+#define qtn_newdest_selsearch_item          "Previous search"
+#undef qtn_new_search_help_common_0
+#define qtn_new_search_help_common_0          "To search for a location enter the name of the street (and the street number) or company name in the \"Address or Company\" field. Usually you only have to enter the first letters of the destination in order to find it. Enter the city or zip code (not both!) where the destination is located in the city field. To alter the country/state press the joystick in the \"Country/state\" field or select country/state in the options menu. To repeat an earlier search select \"Previous search\" in the options menu. "
+#undef qtn_new_search_help_common_1
+#define qtn_new_search_help_common_1          "Are you searching for a museum, an airport or another category? Choose  \"Select category\" on the Options menu. Highlight the category you are searching for on the list. "
+#undef qtn_new_search_help_gps_1
+#define qtn_new_search_help_gps_1          "All search fields must be entered before starting the search. To find destinations close to your current position you can use \"From GPS\" instead of filling in the city/zip code field and country field. From GPS means that information will be gathered from the GPS receiver. "
+#undef qtn_PHONE_NUMBER_EXAMPLE
+#define qtn_PHONE_NUMBER_EXAMPLE          "e.g. 16501234567"
+#undef qtn_please_disconnect_active_sync
+#define qtn_please_disconnect_active_sync          "Please disconnect ActiveSync"
+#undef qtn_positionselect_favorite_item
+#define qtn_positionselect_favorite_item          "From favorites"
+#undef qtn_positionselect_search_item
+#define qtn_positionselect_search_item          "From search"
+#undef qtn_positionselect_tab
+#define qtn_positionselect_tab          "New route"
+#undef qtn_privacy_statement_text
+#define qtn_privacy_statement_text          "This application communicates with a server via the Internet using GPRS or 3G. Positioning via GPS, reading end user data, initiating phone calls and SMS-sending is also a part of the application functionality. To allow the application to use your phone's Internet connection, select Yes. The application can not be used without Internet connection and will be closed if you select No."
+#undef qtn_qtn_wayfinder_incorrect_certificate
+#define qtn_qtn_wayfinder_incorrect_certificate          "Incorrect application certification. Wayfinder will not work correctly. Check your certificate store. Try restarting your phone."
+#undef qtn_register_info_text1
+#define qtn_register_info_text1          "Once you have activated you must go to Wayfinder and the MyWayfinder.com website.\n\nActivation is conducted by entering the activation code and your cell phone number on the following page.\n\n"
+#undef qtn_register_info_text2
+#define qtn_register_info_text2          "Make sure to enter your cell phone number including the country code, i.e., +1XXXXXXX for US users.\n\nThe activation code should be entered as XX XXXX XXXX. Choose select \"Submit code\" to start  activation.\n\n"
+#undef qtn_register_register_item
+#define qtn_register_register_item          "Activate"
+#undef qtn_search_results_help_common_0
+#define qtn_search_results_help_common_0          "Up to 25 search results are shown in this view. You can browse between the search results by selecting \"Next 25\" or \"Previous 25\" on the Options menu. "
+#undef qtn_search_results_help_gps_1
+#define qtn_search_results_help_gps_1          "Press the joystick or select \"Navigate to\" on the Options menu to calculate a route to a search result. "
+#undef qtn_search_results_help_no_gps_1
+#define qtn_search_results_help_no_gps_1          "Highlight a search result and use the Options menu to set the result as a starting point or destination. "
+#undef qtn_SEND_SMS
+#define qtn_SEND_SMS          "Send text message"
+#undef qtn_services_help_common_0
+#define qtn_services_help_common_0          "Services - A website where you receive free information about weather conditions, public transit, currency conversion, etc. You can also purchase additional content, such as advanced weather conditions and city guides, at this website."
+#undef qtn_service_view_press_command
+#define qtn_service_view_press_command          "Select"
+#undef qtn_settings_always_off
+#define qtn_settings_always_off          "Normal"
+#undef qtn_settings_always_on
+#define qtn_settings_always_on          "Always on"
+#undef qtn_settings_ask
+#define qtn_settings_ask          "Ask"
+#undef qtn_settings_autoreroute
+#define qtn_settings_autoreroute          "Automatic reroute"
+#undef qtn_settings_autoroutesms
+#define qtn_settings_autoroutesms          "Route to text message"
+#undef qtn_settings_backlight
+#define qtn_settings_backlight          "Backlight"
+#undef qtn_settings_dist
+#define qtn_settings_dist          "Distance"
+#undef qtn_settings_distance_imperial_feet
+#define qtn_settings_distance_imperial_feet          "Miles, feet"
+#undef qtn_settings_distance_imperial_yards
+#define qtn_settings_distance_imperial_yards          "Miles, yards"
+#undef qtn_settings_distance_metric
+#define qtn_settings_distance_metric          "Metric"
+#undef qtn_settings_distmode
+#define qtn_settings_distmode          "Distance units"
+#undef qtn_settings_disturbances
+#define qtn_settings_disturbances          "Traffic info"
+#undef qtn_settings_help_common_0
+#define qtn_settings_help_common_0          "The Settings view has four submenus/tabs"
+#undef qtn_settings_help_common_1
+#define qtn_settings_help_common_1          "Route tab:\nVehicle - set your transportation type; passenger car, pedestrian or taxi. This will affect the calculated route in terms of where it is allowed to drive and estimated time to goal as well as estimated time of arrival.\n\nDistance units (only available on certain language versions) - Choose between using the metric system, yards or feet.\n\nOptimize for - optimize your route for time, traffic info or distance. Optimizing your route for traffic info means that roadworks, accidents and other traffic disturbances will be considered when calculating the optimal route. Check www.MyWayfinder.com to find out when and where traffic information is available.\n\nToll roads - choose to avoid or allow toll roads when calculating a route.\n\nHighway - choose to avoid or allow highways when calculating a route.\n\nAutomatic reroute - if activated, a new route will automatically be calculated as soon as you leave the route.\n\n"
+#undef qtn_settings_help_common_3
+#define qtn_settings_help_common_3          "Log in with your new password at MyWayfinder.com next time you visit the website.\n\nMap tab:\nSize of map cache - phone memory full? You can easily change the allowed map cache size. The map cache size will not affect the maps that are downloaded from MyWayfinder.com.\n\nShow my position - select if you want the tracking (show the current position on map) functionality to automatically be on or only on request.\n\nMap orientation - choose if you want the map to be north oriented or to rotate according to your direction while navigating.\n\nShow favorites - choose if you want your favorites to be displayed on the map at all zoom levels (always), city zoom levels (city level) or never.\n\nCategories shown - select which category icons you want to be displayed on the map.\n\nMap type - choose between dynamic vector maps and Image maps. Note that it is a transmission cost-saving alternative to choose Image maps. "
+#undef qtn_settings_highways
+#define qtn_settings_highways          "Highway"
+#undef qtn_settings_highway_allow
+#define qtn_settings_highway_allow          "Allow"
+#undef qtn_settings_highway_avoid
+#define qtn_settings_highway_avoid          "Avoid"
+#undef qtn_settings_iap
+#define qtn_settings_iap          "Internet access point"
+#undef qtn_settings_iap_always_ask
+#define qtn_settings_iap_always_ask          "Always ask"
+#undef qtn_settings_keepsmsdest
+#define qtn_settings_keepsmsdest          "Keep text message in inbox"
+#undef qtn_settings_language
+#define qtn_settings_language          "Language"
+#undef qtn_settings_map_select_pos_image
+#define qtn_settings_map_select_pos_image          "Select position image"
+#undef qtn_settings_no
+#define qtn_settings_no          "No"
+#undef qtn_settings_off
+#define qtn_settings_off          "Off"
+#undef qtn_settings_on
+#define qtn_settings_on          "On"
+#undef qtn_settings_only_on_route
+#define qtn_settings_only_on_route          "Only on route"
+#undef qtn_settings_passengercar
+#define qtn_settings_passengercar          "Passenger car"
+#undef qtn_settings_password
+#define qtn_settings_password          "Password"
+#undef qtn_settings_pedestrian
+#define qtn_settings_pedestrian          "Pedestrian"
+#undef qtn_settings_publicTransportation
+#define qtn_settings_publicTransportation          "Public transit"
+#undef qtn_settings_savesmsdest
+#define qtn_settings_savesmsdest          "Save text mess. dest."
+#undef qtn_settings_server
+#define qtn_settings_server          "Server name & port"
+#undef qtn_settings_set_left_side
+#define qtn_settings_set_left_side          "Left-hand traffic"
+#undef qtn_settings_sound
+#define qtn_settings_sound          "Sound"
+#undef qtn_settings_tab
+#define qtn_settings_tab          "Settings"
+#undef qtn_settings_tab_communicate
+#define qtn_settings_tab_communicate          "Com"
+#undef qtn_settings_tab_phone
+#define qtn_settings_tab_phone          "Phone"
+#undef qtn_settings_tab_route
+#define qtn_settings_tab_route          "Route"
+#undef qtn_settings_taxi
+#define qtn_settings_taxi          "Taxi"
+#undef qtn_settings_time
+#define qtn_settings_time          "Time"
+#undef qtn_settings_timedist
+#define qtn_settings_timedist          "Optimize route for"
+#undef qtn_settings_tollroads
+#define qtn_settings_tollroads          "Toll roads"
+#undef qtn_settings_tollroad_allow
+#define qtn_settings_tollroad_allow          "Allow"
+#undef qtn_settings_tollroad_avoid
+#define qtn_settings_tollroad_avoid          "Avoid"
+#undef qtn_settings_transportTruck
+#define qtn_settings_transportTruck          "Truck"
+#undef qtn_settings_username
+#define qtn_settings_username          "Username"
+#undef qtn_settings_vehicle
+#define qtn_settings_vehicle          "Transport mode"
+#undef qtn_settings_volume
+#define qtn_settings_volume          "Volume"
+#undef qtn_settings_web_password
+#define qtn_settings_web_password          "Password"
+#undef qtn_settings_web_username
+#define qtn_settings_web_username          "Username"
+#undef qtn_settings_yes
+#define qtn_settings_yes          "Yes"
+#undef qtn_setting_change_item
+#define qtn_setting_change_item          "Change"
+#undef qtn_setting_navigationmap_2d
+#define qtn_setting_navigationmap_2d          "2D navigation map"
+#undef qtn_setting_navigationmap_3d
+#define qtn_setting_navigationmap_3d          "3D navigation map"
+#undef qtn_SHARE_TRY
+#define qtn_SHARE_TRY          "Send a message to a friend and your friend can try Wayfinder for free."
+#undef qtn_SHARE_WAYFINDER
+#define qtn_SHARE_WAYFINDER          "Share Wayfinder"
+#undef qtn_SHOW_INFO
+#define qtn_SHOW_INFO          "Show information"
+#undef qtn_SMS_SHARE_WAYFINDER
+#define qtn_SMS_SHARE_WAYFINDER          "Hi, check out this cool thing called Wayfinder. Follow the link and try it for free "
+#undef qtn_startmenu_gold_expired
+#define qtn_startmenu_gold_expired          "Your Wayfinder account has expired.\n"
+#undef qtn_startmenu_silver_expired
+#define qtn_startmenu_silver_expired          "Your Wayfinder account has expired.\n"
+#undef qtn_startmenu_trial_help
+#define qtn_startmenu_trial_help          "Select the option \"Activate\" if you wish to activate Wayfinder.\nSelect \"rReactivate\" if you have installed a new version of the software.\nSelect \"Trial\" to try out Wayfinder for a limited period before activation. "
+#undef qtn_startpage_help_common_1
+#define qtn_startpage_help_common_1          "Plan route - Set your starting point and destination and calculate a route.<br /> Search - start searching for a location.<br />Favorites - your saved locations. Map - Pick a point on the map and navigate to it.<br />"
+#undef qtn_startpage_help_common_2
+#define qtn_startpage_help_common_2          "Services - Receive information about weather conditions, public transportation, currency conversion etc. <br />Settings - customise the application according to your own preferences.<br /><br />In the options menu you can choose connect to or disconnect from your GPS."
+#undef qtn_startpage_help_gps_1
+#define qtn_startpage_help_gps_1          "Map - Pick a point on the map and navigate.\n\nNew search - start searching for a location.\n\nFavorites - your saved locations.\n\nServices - A web page where you receive free information about weather conditions, public transportation, currency conversion etc. \n\nMove the joystick to the right to switch to the map view, guide view, itinerary view or the destination view. Select \"Connect to GPS\" or \"Disconnect from GPS\" in the options menu. "
+#undef qtn_startpage_help_no_gps_1
+#define qtn_startpage_help_no_gps_1          "Map - Pick a point on the map and use it as origin or destination.\n\nNew route - start searching for an origin and a destination and calculate a route.\n\nFavorites - your saved locations.\n\nCommunicate - send SMS, MMS or email to your friends, family or colleagues. Communicate your position, destination or route.\n\nMove the joystick to the right to switch to the map view, guide view, itinerary view or the destination view. Select \"Connect to GPS\" or \"Disconnect from GPS\" in the options menu. "
+#undef qtn_startpage_news_item
+#define qtn_startpage_news_item          "Latest news"
+#undef qtn_startpage_open_item
+#define qtn_startpage_open_item          "Open"
+#undef qtn_startpage_upgrade_item
+#define qtn_startpage_upgrade_item          "Upgrade"
+#undef qtn_STATUS
+#define qtn_STATUS          "Status"
+#undef qtn_subject_text
+#define qtn_subject_text          "Subject"
+#undef qtn_TELL_A_FRIEND
+#define qtn_TELL_A_FRIEND          "Tell a friend"
+#undef qtn_tracking_tab
+#define qtn_tracking_tab          "Tracking"
+#undef qtn_txt_endcall
+#define qtn_txt_endcall          "End call"
+#undef qtn_uiq_itinerary_noroute
+#define qtn_uiq_itinerary_noroute          "No route is available"
+#undef qtn_updatewf_badpackagelist_msg
+#define qtn_updatewf_badpackagelist_msg          "The download information is damaged; please select \"Check for update\" on the menu."
+#undef qtn_updatewf_connectionfailed_msg
+#define qtn_updatewf_connectionfailed_msg          "Wayfinder could not connect to the Internet. Make sure that you have selected an Internet access point for GPRS in your Wayfinder settings. If the problem remains, please contact your telecom provider.  "
+#undef qtn_updatewf_connection_timeout_msg
+#define qtn_updatewf_connection_timeout_msg          "The Wayfinder server could not respond in time. Please try again.  "
+#undef qtn_updatewf_downloadfailed_text
+#define qtn_updatewf_downloadfailed_text          "Download failed"
+#undef qtn_updatewf_downloadfailure_msg
+#define qtn_updatewf_downloadfailure_msg          "A problem occurred during downloading; please try again. "
+#undef qtn_updatewf_downloading_msg
+#define qtn_updatewf_downloading_msg          "Download in progress; please wait."
+#undef qtn_updatewf_downloading_text
+#define qtn_updatewf_downloading_text          "Downloading"
+#undef qtn_updatewf_download_not_needed1
+#define qtn_updatewf_download_not_needed1          "Your version of "
+#undef qtn_updatewf_errorreading_msg
+#define qtn_updatewf_errorreading_msg          "A problem occurred when downloading information; please try again. "
+#undef qtn_updatewf_errorsending_msg
+#define qtn_updatewf_errorsending_msg          "A problem occurred when sending information; please try again. "
+#undef qtn_updatewf_fileerror_msg
+#define qtn_updatewf_fileerror_msg          "Some information may be damage; please try again. "
+#undef qtn_updatewf_installreturnederror_msg
+#define qtn_updatewf_installreturnederror_msg          "An error occurred during installation. Installation is continuing..."
+#undef qtn_updatewf_installwaiterror_msg
+#define qtn_updatewf_installwaiterror_msg          "Cannot install Wayfinder; please try again. "
+#undef qtn_updatewf_nopackagelist_msg
+#define qtn_updatewf_nopackagelist_msg          "No download information available; please select \"Check for update\" on the menu."
+#undef qtn_updatewf_nopackagelist_text
+#define qtn_updatewf_nopackagelist_text          "No download information available, please select \"Check for update\" on the menu."
+#undef qtn_updatewf_spacewarning2_msg
+#define qtn_updatewf_spacewarning2_msg          "KB, less than needed "
+#undef qtn_updatewf_spacewarning3_msg
+#define qtn_updatewf_spacewarning3_msg          "KB, please remove data."
+#undef qtn_updatewf_unreadablepackagelist_msg
+#define qtn_updatewf_unreadablepackagelist_msg          "Cannot receive download information; please select \"Check for update\" on the menu."
+#undef qtn_upgrade_country
+#define qtn_upgrade_country          "Subscribed country/state"
+#undef qtn_upgrade_country_item
+#define qtn_upgrade_country_item          "Select country/state"
+#undef qtn_upgrade_info_text1
+#define qtn_upgrade_info_text1          "To be able to use your Wayfinder with a GPS receiver, you have to upgrade your application. This is done by entering your cell phone number and an activation code on the following page.\n\n"
+#undef qtn_upgrade_info_text3
+#define qtn_upgrade_info_text3          "Visit MyWayfinder.com and log in with your username: ### for additional services and updates."
+#undef qtn_upgrade_phone
+#define qtn_upgrade_phone          "Cell number"
+#undef qtn_upgrade_regnumber
+#define qtn_upgrade_regnumber          "Activation code"
+#undef qtn_upgrade_tab
+#define qtn_upgrade_tab          "Upgrade"
+#undef qtn_wayfinder_about_extra_msg
+#define qtn_wayfinder_about_extra_msg          "© 2002-2008 Wayfinder Systems AB\n\nwww.wayfinder.com\n\nData Sources:\n\n© 2008 Tele Atlas B.V, NAVTEQ, CE Info Systems Pvt. Ltd, DMapas, Monolit, Informacijski sistemi d.o.o, Top-Map Kft, CustomWeather, i-Metro, Mimer Information Technology AB"
+#undef qtn_wayfinder_about_msg
+#define qtn_wayfinder_about_msg          "About"
+#undef qtn_wayfinder_address_text
+#define qtn_wayfinder_address_text          "Address"
+#undef qtn_wayfinder_apptype_trial
+#define qtn_wayfinder_apptype_trial          "Trial"
+#undef qtn_wayfinder_arrival_time
+#define qtn_wayfinder_arrival_time          "Arrival time"
+#undef qtn_wayfinder_back_text
+#define qtn_wayfinder_back_text          "Back"
+#undef qtn_wayfinder_badlangresourcefile_msg
+#define qtn_wayfinder_badlangresourcefile_msg          "The voice instructions cannot be played. Please reinstall Wayfinder."
+#undef qtn_wayfinder_badresourcefile_msg
+#define qtn_wayfinder_badresourcefile_msg          "The direction image cannot be shown. Please reinstall Wayfinder. "
+#undef qtn_wayfinder_btbusy_msg
+#define qtn_wayfinder_btbusy_msg          "Could not connect to the GPS receiver because the Bluetooth connection is busy. Make sure that your cell phone/GPS receiver is not connected to another Bluetooth device. "
+#undef qtn_wayfinder_btconnectionerror_msg
+#define qtn_wayfinder_btconnectionerror_msg          "Could not connect to the GPS receiver due to a Bluetooth connection error. Please try again. "
+#undef qtn_wayfinder_btdisconnected_msg
+#define qtn_wayfinder_btdisconnected_msg          "The GPS receiver is disconnected. Please check that your GPS receiver is turned on and within 30-35 feet of your cell phone."
+#undef qtn_wayfinder_btdisconnecterror_msg
+#define qtn_wayfinder_btdisconnecterror_msg          "A problem occurred while disconnecting the GPS receiver. Please try again. "
+#undef qtn_wayfinder_btreciveerror_msg
+#define qtn_wayfinder_btreciveerror_msg          "Bluetooth receive error. Please restart Wayfinder and/or the GPS receiver. "
+#undef qtn_wayfinder_btrunerror_msg
+#define qtn_wayfinder_btrunerror_msg          "Bluetooth communication error. Please try again. "
+#undef qtn_wayfinder_bt_device_timeout
+#define qtn_wayfinder_bt_device_timeout          "Unable to find the selected device. Try again or select a new device on the Settings menu."
+#undef qtn_wayfinder_bt_not_enabled_msg
+#define qtn_wayfinder_bt_not_enabled_msg          "The Bluetooth connection in your cell phone is not turned on. Please activate Bluetooth. "
+#undef qtn_wayfinder_callcenter_item
+#define qtn_wayfinder_callcenter_item          "Call center"
+#undef qtn_wayfinder_call_dialog
+#define qtn_wayfinder_call_dialog          "Phone call"
+#undef qtn_wayfinder_cancle_iap_msg
+#define qtn_wayfinder_cancle_iap_msg          "Click Cancel to stop the search"
+#undef qtn_wayfinder_center_item
+#define qtn_wayfinder_center_item          "Center"
+#undef qtn_wayfinder_citypart_text
+#define qtn_wayfinder_citypart_text          "District"
+#undef qtn_wayfinder_city_text
+#define qtn_wayfinder_city_text          "City"
+#undef qtn_wayfinder_cmd_play_route
+#define qtn_wayfinder_cmd_play_route          "Play route"
+#undef qtn_wayfinder_confirm_clear_route_msg
+#define qtn_wayfinder_confirm_clear_route_msg          "Remove the current route? "
+#undef qtn_wayfinder_confirm_exit_msg
+#define qtn_wayfinder_confirm_exit_msg          "Exit?"
+#undef qtn_wayfinder_confirm_iap_msg
+#define qtn_wayfinder_confirm_iap_msg          "Search for Internet access point automatically?"
+#undef qtn_wayfinder_connect_item
+#define qtn_wayfinder_connect_item          "Communicate"
+#undef qtn_wayfinder_connect_selected_position
+#define qtn_wayfinder_connect_selected_position          "Selected position"
+#undef qtn_wayfinder_country_text
+#define qtn_wayfinder_country_text          "Country"
+#undef qtn_wayfinder_current_country_text
+#define qtn_wayfinder_current_country_text          "Current country/state"
+#undef qtn_wayfinder_decrease_speed_item
+#define qtn_wayfinder_decrease_speed_item          "Decrease speed"
+#undef qtn_wayfinder_deletedestination_msg
+#define qtn_wayfinder_deletedestination_msg          "Delete this favorite?"
+#undef qtn_wayfinder_destination_etg
+#define qtn_wayfinder_destination_etg          "Time to destination"
+#undef qtn_wayfinder_destination_item
+#define qtn_wayfinder_destination_item          "Destination"
+#undef qtn_wayfinder_destination_listitem
+#define qtn_wayfinder_destination_listitem          "Destination"
+#undef qtn_wayfinder_dialerror_msg
+#define qtn_wayfinder_dialerror_msg          "An error occurred while dialing. Please try again. "
+#undef qtn_wayfinder_download_audio_resources
+#define qtn_wayfinder_download_audio_resources          "The sound files are not available on your phone. Do you wish to download them directly via a GPRS Internet connection?"
+#undef qtn_wayfinder_empty_map_cache_item
+#define qtn_wayfinder_empty_map_cache_item          "Empty temporary folder files"
+#undef qtn_wayfinder_enter_pin_code
+#define qtn_wayfinder_enter_pin_code          "Enter PIN"
+#undef qtn_wayfinder_error_msg
+#define qtn_wayfinder_error_msg          "Error"
+#undef qtn_wayfinder_extended_success
+#define qtn_wayfinder_extended_success          "Congratulations! Your Wayfinder navigation service has been renewed."
+#undef qtn_wayfinder_favoritechanged_msg
+#define qtn_wayfinder_favoritechanged_msg          "The favorite is updated. "
+#undef qtn_wayfinder_favoriteincomplete_msg
+#define qtn_wayfinder_favoriteincomplete_msg          "Favorite name was not set."
+#undef qtn_wayfinder_favoriteremoved_msg
+#define qtn_wayfinder_favoriteremoved_msg          "Deleted the favorite."
+#undef qtn_wayfinder_favoritesaved_msg
+#define qtn_wayfinder_favoritesaved_msg          "Saved the favorite."
+#undef qtn_wayfinder_favoritesupdated_msg
+#define qtn_wayfinder_favoritesupdated_msg          "The favorites are updated. "
+#undef qtn_wayfinder_fleet_info_menu
+#define qtn_wayfinder_fleet_info_menu          "Fleet info"
+#undef qtn_wayfinder_fleet_info_msg
+#define qtn_wayfinder_fleet_info_msg          "A1 NAVI is now working as a client for A1 FleetManager.  For more details, contact your company's FleetManager administrator."
+#undef qtn_wayfinder_from_gps_text
+#define qtn_wayfinder_from_gps_text          "From GPS"
+#undef qtn_wayfinder_from_origin_text
+#define qtn_wayfinder_from_origin_text          "From starting point"
+#undef qtn_wayfinder_getbtdeviceerror_msg
+#define qtn_wayfinder_getbtdeviceerror_msg          "Bluetooth GPS receiver was not found. Please turn on your GPS receiver."
+#undef qtn_wayfinder_gold_version_text
+#define qtn_wayfinder_gold_version_text          "Navigator"
+#undef qtn_wayfinder_gprs_notice_text
+#define qtn_wayfinder_gprs_notice_text          "Wayfinder communicates with the Wayfinder server via the Internet.\nTo allow Wayfinder to use your phone's Internet connection, select Yes.\nWayfinder cannot be used without an Internet connection and will be closed if you select No."
+#undef qtn_wayfinder_gpsconnect_item
+#define qtn_wayfinder_gpsconnect_item          "Connect to GPS"
+#undef qtn_wayfinder_gps_dialog_msg
+#define qtn_wayfinder_gps_dialog_msg          "You need to connect to the GPS receiver to view position information\nConnect to the GPS server?"
+#undef qtn_wayfinder_guide_item
+#define qtn_wayfinder_guide_item          "Guide"
+#undef qtn_wayfinder_help_menu
+#define qtn_wayfinder_help_menu          "Help"
+#undef qtn_wayfinder_help_title
+#define qtn_wayfinder_help_title          "Help"
+#undef qtn_wayfinder_iap_fail_header
+#define qtn_wayfinder_iap_fail_header          "No Internet access"
+#undef qtn_wayfinder_iap_fail_not_working
+#define qtn_wayfinder_iap_fail_not_working          "The selected Internet access point is inoperable\nPlease select another Internet access point.\n"
+#undef qtn_wayfinder_iap_fail_no_iaps
+#define qtn_wayfinder_iap_fail_no_iaps          "Internet access points not available. Wayfinder will not work without an Internet connection.\nPlease visit: MyWayfinder.com to get a working Internet access point.\n"
+#undef qtn_wayfinder_iap_fail_no_working_iaps
+#define qtn_wayfinder_iap_fail_no_working_iaps          "No Internet connection available. \nPlease make sure you have network coverage and a working Internet connection on your phone and then try again.\n"
+#undef qtn_wayfinder_iap_search1
+#define qtn_wayfinder_iap_search1          "Searching for Internet connection"
+#undef qtn_wayfinder_iap_search2
+#define qtn_wayfinder_iap_search2          "Please wait"
+#undef qtn_wayfinder_iap_success_header
+#define qtn_wayfinder_iap_success_header          "Success"
+#undef qtn_wayfinder_iap_success_working
+#define qtn_wayfinder_iap_success_working          " Internet access point found"
+#undef qtn_wayfinder_increase_speed_item
+#define qtn_wayfinder_increase_speed_item          "Increase speed"
+#undef qtn_wayfinder_information_title
+#define qtn_wayfinder_information_title          "Information"
+#undef qtn_wayfinder_info_item
+#define qtn_wayfinder_info_item          "Info"
+#undef qtn_wayfinder_initprogramproblem_msg
+#define qtn_wayfinder_initprogramproblem_msg          "Wayfinder could not be started and will now close. Please restart Wayfinder. "
+#undef qtn_wayfinder_internalcomerror_msg
+#define qtn_wayfinder_internalcomerror_msg          "Internal communication error. Please try again. "
+#undef qtn_wayfinder_internalreaderror_msg
+#define qtn_wayfinder_internalreaderror_msg          "Internal communication read error. Please try again."
+#undef qtn_wayfinder_internalwriteerror_msg
+#define qtn_wayfinder_internalwriteerror_msg          "Internal communication write error. Please try again."
+#undef qtn_wayfinder_iron_regstration
+#define qtn_wayfinder_iron_regstration          "Congratulations. You have activated Wayfinder Earth Beta.\nDon't forget that you now have access to the Wayfinder website MyWayfindner.com. Your username and password can be found in the settings view."
+#undef qtn_wayfinder_itinerary_detour_end
+#define qtn_wayfinder_itinerary_detour_end          "Detour ends"
+#undef qtn_wayfinder_itinerary_detour_start
+#define qtn_wayfinder_itinerary_detour_start          "Detour starts"
+#undef qtn_wayfinder_itinerary_item
+#define qtn_wayfinder_itinerary_item          "Itinerary"
+#undef qtn_wayfinder_itinerary_speedcam_end
+#define qtn_wayfinder_itinerary_speedcam_end          "Anti-speeding camera"
+#undef qtn_wayfinder_itinerary_speedcam_start
+#define qtn_wayfinder_itinerary_speedcam_start          "Anti-speeding camera"
+#undef qtn_wayfinder_java_destination_view
+#define qtn_wayfinder_java_destination_view          "Route summary"
+#undef qtn_wayfinder_java_popup_expired
+#define qtn_wayfinder_java_popup_expired          "Your 90 days of Wayfinder Navigator has expired. Extend and enhance the service today with exclusive offerings for Sony Ericsson users. Click Yes to learn more!"
+#undef qtn_wayfinder_java_popup_trial_mode
+#define qtn_wayfinder_java_popup_trial_mode          "Your Wayfinder Navigator will expire on:"
+#undef qtn_wayfinder_java_popup_trial_mode2
+#define qtn_wayfinder_java_popup_trial_mode2          "Do you want to extend and enhance today with exclusive offerings for Sony Ericsson users?"
+#undef qtn_wayfinder_keepsmsdestination_msg
+#define qtn_wayfinder_keepsmsdestination_msg          "Keep destination msg in inbox"
+#undef qtn_wayfinder_kmh_text
+#define qtn_wayfinder_kmh_text          "KPH"
+#undef qtn_wayfinder_language_changed_text
+#define qtn_wayfinder_language_changed_text          "The language has been changed. Please restart Wayfinder to complete the change. To change the language of the voice instructions you need to re-install Wayfinder. Please visit getwf.com and select the preferred language before downloading."
+#undef qtn_wayfinder_latitude_text
+#define qtn_wayfinder_latitude_text          "Latitude"
+#undef qtn_wayfinder_lbs_access_denied_question
+#define qtn_wayfinder_lbs_access_denied_question          "Wayfinder is not allowed to connect to the GPS. Do you wish to adjust your location privacy settings now?"
+#undef qtn_wayfinder_lbs_warn_access_denied
+#define qtn_wayfinder_lbs_warn_access_denied          "Wayfinder is not allowed to connect to the GPS; check your phone positioning settings"
+#undef qtn_wayfinder_lbs_warn_access_denied_instructions
+#define qtn_wayfinder_lbs_warn_access_denied_instructions          "Wayfinder is not allowed to connect to the GPS. Please adjust your phone location privacy settings. The privacy settings are in the control panel, Extras folder. Change to \"Accept all\" to enable  GPS connection."
+#undef qtn_wayfinder_lbs_warn_bad_gps_data
+#define qtn_wayfinder_lbs_warn_bad_gps_data          "Invalid GPS data received; GPS unit may be malfunctioning"
+#undef qtn_wayfinder_lbs_warn_canceled_bt
+#define qtn_wayfinder_lbs_warn_canceled_bt          "Canceled GPS device selection. Choose \"Connect To GPS\" to retry"
+#undef qtn_wayfinder_lbs_warn_no_gps
+#define qtn_wayfinder_lbs_warn_no_gps          "Unable to connect to the GPS device"
+#undef qtn_wayfinder_lbs_warn_unsupported
+#define qtn_wayfinder_lbs_warn_unsupported          "Wayfinder does not support the selected positioning service. Check your phone positioning settings"
+#undef qtn_wayfinder_lbs_warn_user_disabled
+#define qtn_wayfinder_lbs_warn_user_disabled          "The GPS is blocked by your phone settings, check your phone positioning settings"
+#undef qtn_wayfinder_loading_text
+#define qtn_wayfinder_loading_text          "Loading"
+#undef qtn_wayfinder_load_item
+#define qtn_wayfinder_load_item          "Load"
+#undef qtn_wayfinder_longitude_short
+#define qtn_wayfinder_longitude_short          "Long"
+#undef qtn_wayfinder_longitude_text
+#define qtn_wayfinder_longitude_text          "Longitude"
+#undef qtn_wayfinder_lost_gps_message
+#define qtn_wayfinder_lost_gps_message          "The connection to the GPS receiver has been lost.  Subsequently, Wayfinder is unable to guide you."
+#undef qtn_wayfinder_map_cursor_menu
+#define qtn_wayfinder_map_cursor_menu          "Cursor"
+#undef qtn_wayfinder_map_item
+#define qtn_wayfinder_map_item          "Map"
+#undef qtn_wayfinder_map_to_overview
+#define qtn_wayfinder_map_to_overview          "To overview"
+#undef qtn_wayfinder_memory_low_exit_msg
+#define qtn_wayfinder_memory_low_exit_msg          "The phone does not have enough memory available. Wayfinder will now close. Please close any other programs that are in use and restart Wayfinder. "
+#undef qtn_wayfinder_menu_exit
+#define qtn_wayfinder_menu_exit          "Exit"
+#undef qtn_wayfinder_mph_text
+#define qtn_wayfinder_mph_text          "MPH"
+#undef qtn_wayfinder_municipal_text
+#define qtn_wayfinder_municipal_text          "Municipal"
+#undef qtn_wayfinder_mydest_item
+#define qtn_wayfinder_mydest_item          "Favorites"
+#undef qtn_wayfinder_name_text
+#define qtn_wayfinder_name_text          "Name"
+#undef qtn_wayfinder_night_mode
+#define qtn_wayfinder_night_mode          "Night mode"
+#undef qtn_wayfinder_nobtdeviceselected_msg
+#define qtn_wayfinder_nobtdeviceselected_msg          "A GPS receiver is not selected."
+#undef qtn_wayfinder_nohits_msg
+#define qtn_wayfinder_nohits_msg          "The search returned no results. Please redefine your search. "
+#undef qtn_wayfinder_notestablished_listitem
+#define qtn_wayfinder_notestablished_listitem          "Not defined"
+#undef qtn_wayfinder_notice_title
+#define qtn_wayfinder_notice_title          "Accept?"
+#undef qtn_wayfinder_no_sms_msg
+#define qtn_wayfinder_no_sms_msg          "No Wayfinder text message found"
+#undef qtn_wayfinder_open_url
+#define qtn_wayfinder_open_url          "Open webpage"
+#undef qtn_wayfinder_origin_listitem
+#define qtn_wayfinder_origin_listitem          "Start"
+#undef qtn_wayfinder_pause_item
+#define qtn_wayfinder_pause_item          "Pause"
+#undef qtn_wayfinder_phonenumber_text
+#define qtn_wayfinder_phonenumber_text          "Phone number"
+#undef qtn_wayfinder_positionselect_from_map_item
+#define qtn_wayfinder_positionselect_from_map_item          "From map"
+#undef qtn_wayfinder_process_sms_item
+#define qtn_wayfinder_process_sms_item          "Find text message "
+#undef qtn_wayfinder_programmissing_msg
+#define qtn_wayfinder_programmissing_msg          "Wayfinder is not properly installed and will now close. Please reinstall Wayfinder."
+#undef qtn_wayfinder_reactivate_substr
+#define qtn_wayfinder_reactivate_substr          "Reinstalled"
+#undef qtn_wayfinder_recipient_address_invalid_msg
+#define qtn_wayfinder_recipient_address_invalid_msg          "Recipient address invalid. Please check the entered information. "
+#undef qtn_wayfinder_register_gold_fail_email_msg
+#define qtn_wayfinder_register_gold_fail_email_msg          "The email address you supplied seems to be invalid. Please check the address and try again."
+#undef qtn_wayfinder_register_gold_fail_msg
+#define qtn_wayfinder_register_gold_fail_msg          "An error occurred during update."
+#undef qtn_wayfinder_register_gold_fail_name_msg
+#define qtn_wayfinder_register_gold_fail_name_msg          "The name you supplied seems to be invalid. Please check it and try again."
+#undef qtn_wayfinder_register_gold_fail_number_msg
+#define qtn_wayfinder_register_gold_fail_number_msg          "The phone number you entered was invalid. Please check the entered number. "
+#undef qtn_wayfinder_register_gold_fail_region_msg
+#define qtn_wayfinder_register_gold_fail_region_msg          "The region you entered was invalid."
+#undef qtn_wayfinder_register_gold_fail_reg_key_msg
+#define qtn_wayfinder_register_gold_fail_reg_key_msg          "The activation code you entered was invalid."
+#undef qtn_wayfinder_register_gold_success_msg
+#define qtn_wayfinder_register_gold_success_msg          "Your Wayfinder has been successfully activated.\nYou now have access to www.MyWayfinder.com. To find your username and password for MyWayfinder.com, select \"Settings\" on the menu and then the \"Communication\" tab."
+#undef qtn_wayfinder_repeat_off_item
+#define qtn_wayfinder_repeat_off_item          "Repeat off"
+#undef qtn_wayfinder_repeat_on_item
+#define qtn_wayfinder_repeat_on_item          "Repeat on"
+#undef qtn_wayfinder_resourcemissing_msg
+#define qtn_wayfinder_resourcemissing_msg          "Wayfinder is not properly installed and will be closed. Please reinstall Wayfinder."
+#undef qtn_wayfinder_resume_item
+#define qtn_wayfinder_resume_item          "Resume"
+#undef qtn_wayfinder_route_to_item
+#define qtn_wayfinder_route_to_item          "Navigate to"
+#undef qtn_wayfinder_routing_msg
+#define qtn_wayfinder_routing_msg          "Calculating a route"
+#undef qtn_wayfinder_savesmsdestination_msg
+#define qtn_wayfinder_savesmsdestination_msg          "Add text message destination to favorites"
+#undef qtn_wayfinder_searchincomplete_country_msg
+#define qtn_wayfinder_searchincomplete_country_msg          "Country/state wasn't set."
+#undef qtn_wayfinder_search_in_or_close_to
+#define qtn_wayfinder_search_in_or_close_to          "in or close to"
+#undef qtn_wayfinder_search_search_for
+#define qtn_wayfinder_search_search_for          "Search for"
+#undef qtn_wayfinder_select_country_text
+#define qtn_wayfinder_select_country_text          "Select country/state"
+#undef qtn_wayfinder_select_home_server_text
+#define qtn_wayfinder_select_home_server_text          "Please select the area that is closest to your position.\nThis will force Wayfinder use the closest server.\n"
+#undef qtn_wayfinder_send_email
+#define qtn_wayfinder_send_email          "Send e-mail"
+#undef qtn_wayfinder_send_sms_reg_msg
+#define qtn_wayfinder_send_sms_reg_msg          "Please complete your activation by allowing Wayfinder to send an activation text message to the Wayfinder server. "
+#undef qtn_wayfinder_send_sms_reg_title
+#define qtn_wayfinder_send_sms_reg_title          "Send text message?"
+#undef qtn_wayfinder_services
+#define qtn_wayfinder_services          "Services"
+#undef qtn_wayfinder_service_help_gold_info2
+#define qtn_wayfinder_service_help_gold_info2          "Log in at www.MyWayfinder.com for more information about the services that Wayfinder Systems offers and how to purchase them."
+#undef qtn_wayfinder_service_help_silver_info2
+#define qtn_wayfinder_service_help_silver_info2          "Log in at www.wayfinder.com for more information about the services that Wayfinder Systems offers and where to purchase them. "
+#undef qtn_wayfinder_service_help_trial_info2
+#define qtn_wayfinder_service_help_trial_info2          "Log in at www.wayfinder.com for more information about the services that Wayfinder Systems offers and where to purchase them."
+#undef qtn_wayfinder_settings_changed_text
+#define qtn_wayfinder_settings_changed_text          "Some settings were changed that require Wayfinder to restart. Wayfinder will now close and must be restarted. "
+#undef qtn_wayfinder_settings_favorite_show_always
+#define qtn_wayfinder_settings_favorite_show_always          "All zoom levels"
+#undef qtn_wayfinder_settings_favorite_show_city
+#define qtn_wayfinder_settings_favorite_show_city          "City zoom level"
+#undef qtn_wayfinder_settings_favorite_show_never
+#define qtn_wayfinder_settings_favorite_show_never          "Never"
+#undef qtn_wayfinder_settings_favorite_show_selection
+#define qtn_wayfinder_settings_favorite_show_selection          "Show favorites"
+#undef qtn_wayfinder_settings_gps_auto_connect_selection
+#define qtn_wayfinder_settings_gps_auto_connect_selection          "GPS auto reconnect"
+#undef qtn_wayfinder_settings_map_cache_size
+#define qtn_wayfinder_settings_map_cache_size          "Size of map cache"
+#undef qtn_wayfinder_settings_map_gui
+#define qtn_wayfinder_settings_map_gui          "Map"
+#undef qtn_wayfinder_settings_map_traffic_edit_integer
+#define qtn_wayfinder_settings_map_traffic_edit_integer          "Traffic update time"
+#undef qtn_wayfinder_settings_map_traffic_edit_integer_meters
+#define qtn_wayfinder_settings_map_traffic_edit_integer_meters          "Traffic update time"
+#undef qtn_wayfinder_settings_map_traffic_list
+#define qtn_wayfinder_settings_map_traffic_list          "Traffic info in map"
+#undef qtn_wayfinder_settings_north_oriented_map
+#define qtn_wayfinder_settings_north_oriented_map          "North up"
+#undef qtn_wayfinder_settings_pref_guide_mode
+#define qtn_wayfinder_settings_pref_guide_mode          "Navigation mode"
+#undef qtn_wayfinder_settings_pref_guide_mode_guide
+#define qtn_wayfinder_settings_pref_guide_mode_guide          "Guide view"
+#undef qtn_wayfinder_settings_pref_guide_mode_map
+#define qtn_wayfinder_settings_pref_guide_mode_map          "Map"
+#undef qtn_wayfinder_settings_rotating_map
+#define qtn_wayfinder_settings_rotating_map          "Heading up"
+#undef qtn_wayfinder_settings_route_traffic_check
+#define qtn_wayfinder_settings_route_traffic_check          "Check traffic info"
+#undef qtn_wayfinder_settings_sound_less
+#define qtn_wayfinder_settings_sound_less          "Less"
+#undef qtn_wayfinder_settings_sound_mute
+#define qtn_wayfinder_settings_sound_mute          "Mute"
+#undef qtn_wayfinder_settings_sound_voice_prompts
+#define qtn_wayfinder_settings_sound_voice_prompts          "Voice prompts"
+#undef qtn_wayfinder_settings_tracking_level_selection
+#define qtn_wayfinder_settings_tracking_level_selection          "Level"
+#undef qtn_wayfinder_settings_tracking_live
+#define qtn_wayfinder_settings_tracking_live          "Live"
+#undef qtn_wayfinder_settings_tracking_log
+#define qtn_wayfinder_settings_tracking_log          "Log"
+#undef qtn_wayfinder_settings_tracking_log_often
+#define qtn_wayfinder_settings_tracking_log_often          "Log often"
+#undef qtn_wayfinder_settings_tracking_minimal
+#define qtn_wayfinder_settings_tracking_minimal          "Minimal"
+#undef qtn_wayfinder_settings_tracking_never
+#define qtn_wayfinder_settings_tracking_never          "Never"
+#undef qtn_wayfinder_settings_tracking_often
+#define qtn_wayfinder_settings_tracking_often          "Often"
+#undef qtn_wayfinder_settings_tracking_orientation
+#define qtn_wayfinder_settings_tracking_orientation          "Map orientation"
+#undef qtn_wayfinder_settings_tracking_pin
+#define qtn_wayfinder_settings_tracking_pin          "PIN"
+#undef qtn_wayfinder_set_password_empty_denied_msg
+#define qtn_wayfinder_set_password_empty_denied_msg          "You must enter a password (minimum 4 characters). Please try again."
+#undef qtn_wayfinder_silver_registration
+#define qtn_wayfinder_silver_registration          "Congratulations! You now have access to Wayfinder Cities.\nDon't forget that you can also access the Wayfinder website MyWayfinder.com. Your username and password are displayed in the Settings view."
+#undef qtn_wayfinder_silver_version_text
+#define qtn_wayfinder_silver_version_text          "Guide"
+#undef qtn_wayfinder_softkey_back
+#define qtn_wayfinder_softkey_back          "Back"
+#undef qtn_wayfinder_softkey_cancel
+#define qtn_wayfinder_softkey_cancel          "Cancel"
+#undef qtn_wayfinder_softkey_exit
+#define qtn_wayfinder_softkey_exit          "Exit"
+#undef qtn_wayfinder_softkey_ok
+#define qtn_wayfinder_softkey_ok          "OK"
+#undef qtn_wayfinder_speed_text
+#define qtn_wayfinder_speed_text          "Speed"
+#undef qtn_wayfinder_startlist_mydest
+#define qtn_wayfinder_startlist_mydest          "1\tFavorites"
+#undef qtn_wayfinder_start_item
+#define qtn_wayfinder_start_item          "Start"
+#undef qtn_wayfinder_start_navigation
+#define qtn_wayfinder_start_navigation          "Start navigation"
+#undef qtn_wayfinder_state_text
+#define qtn_wayfinder_state_text          "State"
+#undef qtn_wayfinder_stop_item
+#define qtn_wayfinder_stop_item          "Stop"
+#undef qtn_wayfinder_stop_navigation
+#define qtn_wayfinder_stop_navigation          "Stop navigation"
+#undef qtn_wayfinder_stop_navigation_new
+#define qtn_wayfinder_stop_navigation_new          "Remove route"
+#undef qtn_wayfinder_streetno_text
+#define qtn_wayfinder_streetno_text          "Street number"
+#undef qtn_wayfinder_synch_msg
+#define qtn_wayfinder_synch_msg          "Synchronizing"
+#undef qtn_wayfinder_tools_menu
+#define qtn_wayfinder_tools_menu          "Tools"
+#undef qtn_wayfinder_trial_substr
+#define qtn_wayfinder_trial_substr          "Try before you buy."
+#undef qtn_wayfinder_trial_version_text
+#define qtn_wayfinder_trial_version_text          "Trial version"
+#undef qtn_wayfinder_try_again_msg
+#define qtn_wayfinder_try_again_msg          "Please try again."
+#undef qtn_wayfinder_unknown_text
+#define qtn_wayfinder_unknown_text          "Unknown"
+#undef qtn_wayfinder_upgrade_submit_code
+#define qtn_wayfinder_upgrade_submit_code          "Submit code"
+#undef qtn_wayfinder_url
+#define qtn_wayfinder_url          "Web page"
+#undef qtn_wayfinder_verify_form_msg
+#define qtn_wayfinder_verify_form_msg          "Please verify that the information you entered is correct. "
+#undef qtn_wayfinder_version_text
+#define qtn_wayfinder_version_text          "Version"
+#undef qtn_wayfinder_view_menu
+#define qtn_wayfinder_view_menu          "View"
+#undef qtn_wayfinder_warning_msg
+#define qtn_wayfinder_warning_msg          "Warning"
+#undef qtn_wayfinder_wronglanguageres_msg
+#define qtn_wayfinder_wronglanguageres_msg          "Wayfinder is not properly installed and will now close. Please reinstall Wayfinder."
+#undef qtn_wayfinder_zipcode_text
+#define qtn_wayfinder_zipcode_text          "ZIP code"
+#undef qtn_wayfinder_zoomin_item
+#define qtn_wayfinder_zoomin_item          "Zoom +"
+#undef qtn_wayfinder_zoomout_item
+#define qtn_wayfinder_zoomout_item          "Zoom -"
+#undef qtn_WEATHER_LM
+#define qtn_WEATHER_LM          "Weather"
+#undef qtn_web_enter_activation_code
+#define qtn_web_enter_activation_code          "Enter activation code"
+#undef qtn_wf_3d_mode
+#define qtn_wf_3d_mode          "Show maps in 3d"
+#undef qtn_wf_80_new_news_msg
+#define qtn_wf_80_new_news_msg          "News available."
+#undef qtn_wf_activate_internal_gps
+#define qtn_wf_activate_internal_gps          "The internal GPS needs to be activated before it can be used. Please activate it and try again."
+#undef qtn_wf_addresses
+#define qtn_wf_addresses          "Addresses"
+#undef qtn_wf_agps_broken_err
+#define qtn_wf_agps_broken_err          "An error in the built-in GPS caused Wayfinder to disconnect from it."
+#undef qtn_wf_agps_off_err
+#define qtn_wf_agps_off_err          "The built-in GPS is disabled. Please turn it on and try again."
+#undef qtn_wf_application_must_be_closed
+#define qtn_wf_application_must_be_closed          "To continue the upgrade procedure,  the Wayfinder application must be closed."
+#undef qtn_wf_app_will_close_since_gprs
+#define qtn_wf_app_will_close_since_gprs          "Wayfinder has to connect to the internet via GPRS to work properly. The application will now close. Please restart your Wayfinder application and try again."
+#undef qtn_wf_avg
+#define qtn_wf_avg          "Avg"
+#undef qtn_wf_bluetooth_disabled
+#define qtn_wf_bluetooth_disabled          "Cannot enter Bluetooth mode. Ensure that Bluetooth is enabled."
+#undef qtn_wf_cable_gps
+#define qtn_wf_cable_gps          "Cable GPS"
+#undef qtn_wf_cannot_connect_to_gps_fligt_mode
+#define qtn_wf_cannot_connect_to_gps_fligt_mode          "Cannot connect to Bluetooth GPS because flight mode is on. Please turn it off."
+#undef qtn_wf_cant_connect_gps_reveiver
+#define qtn_wf_cant_connect_gps_reveiver          "Could not connect to GPS receiver. Ensure that it is on and in range of the phone and try again."
+#undef qtn_wf_changed_transportation_mode
+#define qtn_wf_changed_transportation_mode          "You have changed the transportation mode. A new route will be calculated."
+#undef qtn_wf_change_gps
+#define qtn_wf_change_gps          "Change GPS"
+#undef qtn_wf_clear_route
+#define qtn_wf_clear_route          "Clear route"
+#undef qtn_wf_close_application
+#define qtn_wf_close_application          "To apply the settings, the Wayfinder application must be restarted. Close application ?"
+#undef qtn_wf_community
+#define qtn_wf_community          "Community"
+#undef qtn_wf_complete
+#define qtn_wf_complete          "Complete"
+#undef qtn_wf_com_already_taken
+#define qtn_wf_com_already_taken          "COM port is already in use Please close the application using the COM port and try again. If this does not help, restart the phone."
+#undef qtn_wf_confirm_delete_body
+#define qtn_wf_confirm_delete_body          "Delete"
+#undef qtn_wf_confirm_delete_header
+#define qtn_wf_confirm_delete_header          "Confirm delete"
+#undef qtn_wf_confirm_overwrite_body
+#define qtn_wf_confirm_overwrite_body          "already exists, replace it?"
+#undef qtn_wf_confirm_overwrite_header
+#define qtn_wf_confirm_overwrite_header          "Confirm overwrite"
+#undef qtn_wf_confirm_send_sms
+#define qtn_wf_confirm_send_sms          "You will now send a text message to"
+#undef qtn_wf_connecting_to_cable_gps
+#define qtn_wf_connecting_to_cable_gps          "Connecting to cable GPS"
+#undef qtn_wf_contact_search_busy
+#define qtn_wf_contact_search_busy          "The Contacts application is busy. Please try again later."
+#undef qtn_wf_coordinates
+#define qtn_wf_coordinates          "Coordinates"
+#undef qtn_wf_create_bitmap_err
+#define qtn_wf_create_bitmap_err          "Error in bitmap creation"
+#undef qtn_wf_current_origin_msg
+#define qtn_wf_current_origin_msg          "Current starting point"
+#undef qtn_wf_degree_short
+#define qtn_wf_degree_short          "Degree"
+#undef qtn_wf_degree_sign
+#define qtn_wf_degree_sign          "°"
+#undef qtn_wf_delete_map
+#define qtn_wf_delete_map          "Do you want to delete the selected map?"
+#undef qtn_wf_delete_map_files
+#define qtn_wf_delete_map_files          "Delete map"
+#undef qtn_wf_delete_map_file_failed
+#define qtn_wf_delete_map_file_failed          "Delete process failed. Please try again."
+#undef qtn_wf_delete_route
+#define qtn_wf_delete_route          "Delete saved route"
+#undef qtn_wf_dialog_title_select
+#define qtn_wf_dialog_title_select          "Select"
+#undef qtn_wf_direction_east
+#define qtn_wf_direction_east          "East"
+#undef qtn_wf_direction_north
+#define qtn_wf_direction_north          "North"
+#undef qtn_wf_direction_south
+#define qtn_wf_direction_south          "South"
+#undef qtn_wf_direction_west
+#define qtn_wf_direction_west          "West"
+#undef qtn_wf_do_you_want_to_connect
+#define qtn_wf_do_you_want_to_connect          "You must have a GPS receiver connected to be able to navigate. Connect one now?"
+#undef qtn_wf_drafts_folder_not_opened
+#define qtn_wf_drafts_folder_not_opened          "The Drafts folder could not be opened"
+#undef qtn_wf_edit_and_save
+#define qtn_wf_edit_and_save          "Edit and save"
+#undef qtn_wf_enter_name
+#define qtn_wf_enter_name          "Enter name:"
+#undef qtn_wf_error_occured_while_sending_message
+#define qtn_wf_error_occured_while_sending_message          "An error occurred while sending the message\n"
+#undef qtn_wf_error_occur_while_sending_sms
+#define qtn_wf_error_occur_while_sending_sms          "An error occurred while sending the registration text message.\nYou can send a registration text message at the next startup."
+#undef qtn_wf_error_reading_sms_list
+#define qtn_wf_error_reading_sms_list          "Error reading the list of SMS messages\n"
+#undef qtn_wf_ERR_DEST_01
+#define qtn_wf_ERR_DEST_01          "Favorite synchronization already in progress."
+#undef qtn_wf_ERR_DEST_02
+#define qtn_wf_ERR_DEST_02          "Internal error."
+#undef qtn_wf_ERR_DEST_03
+#define qtn_wf_ERR_DEST_03          "Information about your favorites is not available. Please select Synchronize."
+#undef qtn_wf_ERR_DEST_04
+#define qtn_wf_ERR_DEST_04          "Text in the favorite field too long. You may enter no more than 255 characters. "
+#undef qtn_wf_ERR_DEST_05
+#define qtn_wf_ERR_DEST_05          "Information about your favorites is not available. Please select Synchronize."
+#undef qtn_wf_ERR_DEST_06
+#define qtn_wf_ERR_DEST_06          "Information about your favorites is not available. Please select Synchronize."
+#undef qtn_wf_ERR_NAVTASK_01
+#define qtn_wf_ERR_NAVTASK_01          "The current route is incomplete. Please download the route again."
+#undef qtn_wf_ERR_NAVTASK_02
+#define qtn_wf_ERR_NAVTASK_02          "Internal error."
+#undef qtn_wf_ERR_NAVTASK_03
+#define qtn_wf_ERR_NAVTASK_03          "Internal error."
+#undef qtn_wf_ERR_NAVTASK_04
+#define qtn_wf_ERR_NAVTASK_04          "Wayfinder cannot guide you because you are too far from the route."
+#undef qtn_wf_ERR_NAVTASK_05
+#define qtn_wf_ERR_NAVTASK_05          "Internal error."
+#undef qtn_wf_ERR_NAVTASK_06
+#define qtn_wf_ERR_NAVTASK_06          "Already downloading a route. Please wait."
+#undef qtn_wf_ERR_NSC_01
+#define qtn_wf_ERR_NSC_01          "No positions were received from the GPS. Please make sure that the GPS is turned on, that the battery is charged, that the GPS has a clear view of the sky and  that your cell phone is connected to the GPS."
+#undef qtn_wf_ERR_NSC_02
+#define qtn_wf_ERR_NSC_02          "Could not connect to the Wayfinder server. Please try again."
+#undef qtn_wf_ERR_NSC_03
+#define qtn_wf_ERR_NSC_03          "Your Wayfinder account has expired. "
+#undef qtn_wf_ERR_NSC_03_PPC
+#define qtn_wf_ERR_NSC_03_PPC          "You are not subscribed to this service. Would you like to subscribe?"
+#undef qtn_wf_ERR_NSC_03_UIQ
+#define qtn_wf_ERR_NSC_03_UIQ          "Your Wayfinder account has expired. "
+#undef qtn_wf_ERR_NSC_04
+#define qtn_wf_ERR_NSC_04          "This user account does not exist. "
+#undef qtn_wf_ERR_NSC_05
+#define qtn_wf_ERR_NSC_05          "Internal error."
+#undef qtn_wf_ERR_NSC_06
+#define qtn_wf_ERR_NSC_06          "Problem with the supplied coordinates."
+#undef qtn_wf_ERR_NSC_07
+#define qtn_wf_ERR_NSC_07          "Internal error."
+#undef qtn_wf_ERR_NSC_08
+#define qtn_wf_ERR_NSC_08          "Internal error."
+#undef qtn_wf_ERR_NSC_09
+#define qtn_wf_ERR_NSC_09          "Wayfinder is not properly installed and will now close. Please reinstall Wayfinder."
+#undef qtn_wf_ERR_NSC_10
+#define qtn_wf_ERR_NSC_10          "No transactions left."
+#undef qtn_wf_ERR_NSC_11
+#define qtn_wf_ERR_NSC_11          "A problem occurred. Please restart your cell phone. "
+#undef qtn_wf_ERR_NSC_12
+#define qtn_wf_ERR_NSC_12          "This phone is not registered to your Wayfinder account. If you have a new phone, please log in at www.MyWayfinder.com and change the phone model on the menu Services/Personal settings. "
+#undef qtn_wf_ERR_NSC_14
+#define qtn_wf_ERR_NSC_14          "Unable to contact server while phone is offline. Please change your profile setting. "
+#undef qtn_wf_ERR_NSC_SERVER_01
+#define qtn_wf_ERR_NSC_SERVER_01          "The connection with the Wayfinder server was lost Please try again.  "
+#undef qtn_wf_ERR_NSC_SERVER_02
+#define qtn_wf_ERR_NSC_SERVER_02          "Wayfinder could not respond to your request. Please try again. "
+#undef qtn_wf_ERR_NSC_SERVER_03
+#define qtn_wf_ERR_NSC_SERVER_03          "The Wayfinder server could not respond in time. Please try again.  "
+#undef qtn_wf_ERR_NSC_SERVER_04
+#define qtn_wf_ERR_NSC_SERVER_04          "Wayfinder does not have map coverage for the selected area."
+#undef qtn_wf_ERR_NSC_SERVER_05
+#define qtn_wf_ERR_NSC_SERVER_05          "To calculate this route, you need to upgrade your map coverage. Please visit the Mobile shop for an instant upgrade. "
+#undef qtn_wf_ERR_NSC_SERVER_06
+#define qtn_wf_ERR_NSC_SERVER_06          "Wayfinder could not connect to the Internet. Make sure that you have selected an Internet access point for GPRS in your Wayfinder settings. If the problem remains, please contact your telecom provider.  "
+#undef qtn_wf_ERR_NSC_SERVER_07
+#define qtn_wf_ERR_NSC_SERVER_07          "The Wayfinder server is not responding. Please try again."
+#undef qtn_wf_ERR_NSC_SERVER_08
+#define qtn_wf_ERR_NSC_SERVER_08          "Your Wayfinder software version is too old. Please download a new Wayfinder version from www.MyWayfinder.com or wap.wayfinder.com. "
+#undef qtn_wf_ERR_NSC_SERVER_09
+#define qtn_wf_ERR_NSC_SERVER_09          "The connection with the Wayfinder server was lost Please try again.  "
+#undef qtn_wf_ERR_NSC_SERVER_10
+#define qtn_wf_ERR_NSC_SERVER_10          "Wayfinder could not connect to the server. Please try again."
+#undef qtn_wf_ERR_NSC_SERVER_11
+#define qtn_wf_ERR_NSC_SERVER_11          "Wayfinder cannot calculate a route to the destination."
+#undef qtn_wf_ERR_NSC_SERVER_12
+#define qtn_wf_ERR_NSC_SERVER_12          "Route too long for vehicle type."
+#undef qtn_wf_ERR_NSC_SERVER_13
+#define qtn_wf_ERR_NSC_SERVER_13          "Wayfinder cannot calculate a route from the starting point."
+#undef qtn_wf_ERR_NSC_SERVER_14
+#define qtn_wf_ERR_NSC_SERVER_14          "Wayfinder cannot calculate a route to the destination."
+#undef qtn_wf_ERR_NSC_SERVER_15
+#define qtn_wf_ERR_NSC_SERVER_15          "No HotDest chosen."
+#undef qtn_wf_ERR_NSC_SERVER_16
+#define qtn_wf_ERR_NSC_SERVER_16          "A new version of Wayfinder is available at MyWayfinder.com."
+#undef qtn_wf_ERR_NSC_SERVER_17
+#define qtn_wf_ERR_NSC_SERVER_17          "Your username is not valid for this cell phone. "
+#undef qtn_wf_ERR_NSC_SERVER_18
+#define qtn_wf_ERR_NSC_SERVER_18          "A problem occurred while transferring Wayfinder to a new phone. "
+#undef qtn_wf_ERR_NSC_SERVER_19
+#define qtn_wf_ERR_NSC_SERVER_19          "A problem occurred while transferring Wayfinder to a new phone. "
+#undef qtn_wf_ERR_NSC_SERVER_20
+#define qtn_wf_ERR_NSC_SERVER_20          "A problem occurred while transferring Wayfinder to a new phone. "
+#undef qtn_wf_ERR_NSC_SERVER_21
+#define qtn_wf_ERR_NSC_SERVER_21          "A problem occurred while transferring Wayfinder to a new phone. "
+#undef qtn_wf_ERR_PARAM_01
+#define qtn_wf_ERR_PARAM_01          "A part of the Wayfinder installation is damaged or missing. Please reinstall Wayfinder. "
+#undef qtn_wf_ERR_PARAM_02
+#define qtn_wf_ERR_PARAM_02          "Wayfinder was not closed properly and your settings may have been damaged."
+#undef qtn_wf_ERR_PARAM_03
+#define qtn_wf_ERR_PARAM_03          "Wayfinder was not closed properly and your current settings will be reset."
+#undef qtn_wf_ERR_PARAM_04
+#define qtn_wf_ERR_PARAM_04          "Wayfinder was not properly installed and will now close. Please reinstall Wayfinder."
+#undef qtn_wf_ERR_PARAM_05
+#define qtn_wf_ERR_PARAM_05          "The phone does not have enough available memory  Wayfinder will now close. Please  remove data to clear memory. "
+#undef qtn_wf_ERR_UC_01
+#define qtn_wf_ERR_UC_01          "Operation timed out."
+#undef qtn_wf_ERR_UC_03
+#define qtn_wf_ERR_UC_03          "Internal error."
+#undef qtn_wf_ERR_UC_04
+#define qtn_wf_ERR_UC_04          "Internal error."
+#undef qtn_wf_ERR_UC_05
+#define qtn_wf_ERR_UC_05          "No valid route."
+#undef qtn_wf_ERR_UC_06
+#define qtn_wf_ERR_UC_06          "Invalid parameter value."
+#undef qtn_wf_ERR_UC_07
+#define qtn_wf_ERR_UC_07          "Unknown parameter."
+#undef qtn_wf_ERR_UC_08
+#define qtn_wf_ERR_UC_08          "No such search item."
+#undef qtn_wf_failed_set_remainder
+#define qtn_wf_failed_set_remainder          "Messaging failed (Internal error: Failed to set the remainder of the properties for the message)"
+#undef qtn_wf_favorite_details_msg
+#define qtn_wf_favorite_details_msg          "Favorite details"
+#undef qtn_wf_favorite_view_msg
+#define qtn_wf_favorite_view_msg          "Favorite view"
+#undef qtn_wf_favourites_updated
+#define qtn_wf_favourites_updated          "Your favorite has been updated"
+#undef qtn_wf_favourite_saved
+#define qtn_wf_favourite_saved          "Your favorite has been saved"
+#undef qtn_wf_fewer
+#define qtn_wf_fewer          "Fewer"
+#undef qtn_wf_find_listitem
+#define qtn_wf_find_listitem          "Find"
+#undef qtn_wf_gps_altitude
+#define qtn_wf_gps_altitude          "Altitude"
+#undef qtn_wf_gps_info_msg
+#define qtn_wf_gps_info_msg          "GPS info"
+#undef qtn_wf_gps_selection
+#define qtn_wf_gps_selection          "GPS selection"
+#undef qtn_wf_gps_turned_off
+#define qtn_wf_gps_turned_off          "The internal GPS is turned off. Do you want to activate it?"
+#undef qtn_wf_guide_view_msg
+#define qtn_wf_guide_view_msg          "Guide view"
+#undef qtn_wf_hide_disable_voice_incoming
+#define qtn_wf_hide_disable_voice_incoming          "Hide Wayfinder, disable Wayfinder voice output for incoming calls only."
+#undef qtn_wf_home_item
+#define qtn_wf_home_item          "Home"
+#undef qtn_wf_http_event_err
+#define qtn_wf_http_event_err          "Unrecognized HTTP event"
+#undef qtn_wf_http_server_disconnected_err
+#define qtn_wf_http_server_disconnected_err          "Server disconnected"
+#undef qtn_wf_http_server_not_found_err
+#define qtn_wf_http_server_not_found_err          "Server not found"
+#undef qtn_wf_http_transaction_err
+#define qtn_wf_http_transaction_err          "HTTP transaction failed"
+#undef qtn_wf_http_unknown_err
+#define qtn_wf_http_unknown_err          "Unknown HTTP error"
+#undef qtn_wf_include
+#define qtn_wf_include          "Include"
+#undef qtn_wf_INFOV_DIRECTION
+#define qtn_wf_INFOV_DIRECTION          "Direction"
+#undef qtn_wf_installed_maps
+#define qtn_wf_installed_maps          "Installed maps"
+#undef qtn_wf_internal_gps
+#define qtn_wf_internal_gps          "Internal GPS"
+#undef qtn_wf_load_route
+#define qtn_wf_load_route          "Open saved route"
+#undef qtn_wf_main_menu
+#define qtn_wf_main_menu          "Main menu"
+#undef qtn_wf_maps_on_device
+#define qtn_wf_maps_on_device          "Maps on phone"
+#undef qtn_wf_MAPV_FS_ERROR
+#define qtn_wf_MAPV_FS_ERROR          "Cannot connect to file server. Please restart your cell phone"
+#undef qtn_wf_MAPV_MAP_ERR
+#define qtn_wf_MAPV_MAP_ERR          "Problem occurred with image map. If problem persists, please restart your cell phone. "
+#undef qtn_wf_MAPV_MAP_ERR_07
+#define qtn_wf_MAPV_MAP_ERR_07          "Could not show map. Please search for a location and then select \"Show on map\". "
+#undef qtn_wf_map_deleted
+#define qtn_wf_map_deleted          "Map deleted"
+#undef qtn_wf_map_files_menu
+#define qtn_wf_map_files_menu          "Saved maps"
+#undef qtn_wf_mark
+#define qtn_wf_mark          "Mark"
+#undef qtn_wf_max
+#define qtn_wf_max          "Max."
+#undef qtn_wf_minimized
+#define qtn_wf_minimized          "Minimized"
+#undef qtn_wf_minutes_short
+#define qtn_wf_minutes_short          "Minutes"
+#undef qtn_wf_mms_text_picture_msg
+#define qtn_wf_mms_text_picture_msg          "Multimedia message: text/picture"
+#undef qtn_wf_new_maps_installed
+#define qtn_wf_new_maps_installed          "new maps installed"
+#undef qtn_wf_new_map_installed
+#define qtn_wf_new_map_installed          "new map installed"
+#undef qtn_wf_next_msg
+#define qtn_wf_next_msg          "Next"
+#undef qtn_wf_normal
+#define qtn_wf_normal          "Normal"
+#undef qtn_wf_not_find_iap
+#define qtn_wf_not_find_iap          "Wayfinder could not find an Internet access point, please contact your telecom provider or visit www.mywayfinder.com for help."
+#undef qtn_wf_not_selected_favorite
+#define qtn_wf_not_selected_favorite          "You have not selected a favorite"
+#undef qtn_wf_no_coordinates
+#define qtn_wf_no_coordinates          "The search result has no coordinates and can therefore not be used for navigation purposes.\n\nThis happens e.g. for companies or people that have P.O. boxes listed as their only address."
+#undef qtn_wf_no_files_available
+#define qtn_wf_no_files_available          "No files available"
+#undef qtn_wf_no_gps_pos
+#define qtn_wf_no_gps_pos          "No GPS pos."
+#undef qtn_wf_no_gps_pos_err
+#define qtn_wf_no_gps_pos_err          "Wayfinder cannot receive any positions from the GPS after trying for some time. Please check that your GPS is switched on, the battery is charged, the GPS has a clear view of the sky and your mobile phone is connected to the GPS."
+#undef qtn_wf_no_gps_pos_warn
+#define qtn_wf_no_gps_pos_warn          "No gps, retrying!"
+#undef qtn_wf_no_maps_available
+#define qtn_wf_no_maps_available          "No maps available"
+#undef qtn_wf_no_results
+#define qtn_wf_no_results          "No results"
+#undef qtn_wf_only_when_approaching_route_ap
+#define qtn_wf_only_when_approaching_route_ap          "Before turns"
+#undef qtn_wf_pictogram
+#define qtn_wf_pictogram          "Guide view"
+#undef qtn_wf_play_demo
+#define qtn_wf_play_demo          "Play demo"
+#undef qtn_wf_play_route
+#define qtn_wf_play_route          "Play"
+#undef qtn_wf_poi_display
+#define qtn_wf_poi_display          "Points of interest (POI) display"
+#undef qtn_wf_poi_downloads
+#define qtn_wf_poi_downloads          "POI downloads"
+#undef qtn_wf_previous_searches
+#define qtn_wf_previous_searches          "Previous searches"
+#undef qtn_wf_report_event
+#define qtn_wf_report_event          "Report an event"
+#undef qtn_wf_report_map_problem
+#define qtn_wf_report_map_problem          "Report map problem"
+#undef qtn_wf_report_problem
+#define qtn_wf_report_problem          "Report problem"
+#undef qtn_wf_request_assistance
+#define qtn_wf_request_assistance          "Request assistance"
+#undef qtn_wf_request_failed
+#define qtn_wf_request_failed          "Request failed"
+#undef qtn_wf_REQ_FAILED_01
+#define qtn_wf_REQ_FAILED_01          "Request for address failed."
+#undef qtn_wf_REQ_FAILED_02
+#define qtn_wf_REQ_FAILED_02          "Search request failed."
+#undef qtn_wf_REQ_FAILED_03
+#define qtn_wf_REQ_FAILED_03          "Navigation request failed."
+#undef qtn_wf_REQ_FAILED_04
+#define qtn_wf_REQ_FAILED_04          "Navigation request failed."
+#undef qtn_wf_REQ_FAILED_05
+#define qtn_wf_REQ_FAILED_05          "Failed to read top region list."
+#undef qtn_wf_REQ_FAILED_06
+#define qtn_wf_REQ_FAILED_06          "Failed to read call center number list."
+#undef qtn_wf_REQ_FAILED_07
+#define qtn_wf_REQ_FAILED_07          "Failed to read a parameter."
+#undef qtn_wf_REQ_FAILED_08
+#define qtn_wf_REQ_FAILED_08          "Failed to write a parameter."
+#undef qtn_wf_REQ_FAILED_09
+#define qtn_wf_REQ_FAILED_09          "Failed to write a parameter."
+#undef qtn_wf_REQ_FAILED_10
+#define qtn_wf_REQ_FAILED_10          "Failed to read stored favorites."
+#undef qtn_wf_REQ_FAILED_11
+#define qtn_wf_REQ_FAILED_11          "Failed to read stored favorites."
+#undef qtn_wf_REQ_FAILED_12
+#define qtn_wf_REQ_FAILED_12          "Failed to sort favorites."
+#undef qtn_wf_REQ_FAILED_13
+#define qtn_wf_REQ_FAILED_13          "Failed to synchronize favorites."
+#undef qtn_wf_REQ_FAILED_14
+#define qtn_wf_REQ_FAILED_14          "Failed to get information on favorites."
+#undef qtn_wf_REQ_FAILED_15
+#define qtn_wf_REQ_FAILED_15          "Failed to add favorites."
+#undef qtn_wf_REQ_FAILED_16
+#define qtn_wf_REQ_FAILED_16          "Failed to add favorites."
+#undef qtn_wf_REQ_FAILED_17
+#define qtn_wf_REQ_FAILED_17          "Failed to remove favorite."
+#undef qtn_wf_REQ_FAILED_18
+#define qtn_wf_REQ_FAILED_18          "Failed to change favorite."
+#undef qtn_wf_REQ_FAILED_19
+#define qtn_wf_REQ_FAILED_19          "Navigation request failed."
+#undef qtn_wf_REQ_FAILED_20
+#define qtn_wf_REQ_FAILED_20          "Navigation request failed."
+#undef qtn_wf_REQ_FAILED_21
+#define qtn_wf_REQ_FAILED_21          "Failed to disconnect GPS."
+#undef qtn_wf_REQ_FAILED_22
+#define qtn_wf_REQ_FAILED_22          "Failed to connect to GPS."
+#undef qtn_wf_RESOURCE_NEED_VERSION
+#define qtn_wf_RESOURCE_NEED_VERSION          "You need at least version "
+#undef qtn_wf_RESOURCE_PROGRAM_EXIT
+#define qtn_wf_RESOURCE_PROGRAM_EXIT          "Wayfinder will exit. "
+#undef qtn_wf_RESOURCE_TOO_OLD
+#define qtn_wf_RESOURCE_TOO_OLD          "The Wayfinder voice instruction file (Part 2) is outdated. Please install a new version from www.MyWayfinder.com"
+#undef qtn_wf_RESOURCE_YOUR_VERSION
+#define qtn_wf_RESOURCE_YOUR_VERSION          "Your version is "
+#undef qtn_wf_ROUTEV_ETG_DAYS
+#define qtn_wf_ROUTEV_ETG_DAYS          "days"
+#undef qtn_wf_ROUTEV_ETG_HOURS
+#define qtn_wf_ROUTEV_ETG_HOURS          "h"
+#undef qtn_wf_ROUTEV_ETG_MIN
+#define qtn_wf_ROUTEV_ETG_MIN          "min"
+#undef qtn_wf_ROUTEV_ETG_SEC
+#define qtn_wf_ROUTEV_ETG_SEC          "s"
+#undef qtn_wf_ROUTEV_ETG_WEEKS
+#define qtn_wf_ROUTEV_ETG_WEEKS          "weeks"
+#undef qtn_wf_s80_no_content_to_send_msg
+#define qtn_wf_s80_no_content_to_send_msg          "You have no content to send."
+#undef qtn_wf_safety_information_body
+#define qtn_wf_safety_information_body          "The information provided through the Service is to be seen as recommendations and should not be viewed by the Customer as instructions. If a recommendation supplied through the Service deviate from local traffic regulations or other local conditions, the Customer must always abide by and take into consideration these local regulations and conditions. Use of the Service is at the Customer's own risk and it is always the Customer's responsibility and duty to act in a manner that will not jeopardize the traffic safety of the Customer or any other person."
+#undef qtn_wf_safety_information_head
+#define qtn_wf_safety_information_head          "Safety information"
+#undef qtn_wf_save_as_favourite
+#define qtn_wf_save_as_favourite          "Save as favorite"
+#undef qtn_wf_save_current_route
+#define qtn_wf_save_current_route          "Save current route"
+#undef qtn_wf_SEARCH_DETAIL_08
+#define qtn_wf_SEARCH_DETAIL_08          "\tZIP code\t"
+#undef qtn_wf_search_enter_more_info
+#define qtn_wf_search_enter_more_info          "Search could not be completed. Please enter more information!"
+#undef qtn_wf_search_enter_the_name2
+#define qtn_wf_search_enter_the_name2          "After you have entered the name, you will be returned to the search form where you can further specify your search."
+#undef qtn_wf_search_result_msg
+#define qtn_wf_search_result_msg          "Search results"
+#undef qtn_wf_secconds_short
+#define qtn_wf_secconds_short          "Seconds"
+#undef qtn_wf_selected_gps
+#define qtn_wf_selected_gps          "Selected GPS"
+#undef qtn_wf_select_city_zip_code_msg
+#define qtn_wf_select_city_zip_code_msg          "Select city or ZIP code"
+#undef qtn_wf_select_location_item
+#define qtn_wf_select_location_item          "Select location"
+#undef qtn_wf_send_to_a_friend
+#define qtn_wf_send_to_a_friend          "Send to a friend"
+#undef qtn_wf_serial_port_settings_not_correct
+#define qtn_wf_serial_port_settings_not_correct          "Serial port defined in settings does not match serial port defined for Bluetooth."
+#undef qtn_wf_services_mobile_shop
+#define qtn_wf_services_mobile_shop          "Mobile shop"
+#undef qtn_wf_settings_poi
+#define qtn_wf_settings_poi          "POI"
+#undef qtn_wf_settings_user
+#define qtn_wf_settings_user          "User"
+#undef qtn_wf_settings_vehicle
+#define qtn_wf_settings_vehicle          "Vehicle"
+#undef qtn_wf_settings_verbosity
+#define qtn_wf_settings_verbosity          "Voice prompts"
+#undef qtn_wf_setting_display_signposts
+#define qtn_wf_setting_display_signposts          "Display signposts"
+#undef qtn_wf_setting_on_foot
+#define qtn_wf_setting_on_foot          "On foot"
+#undef qtn_wf_set_as_start
+#define qtn_wf_set_as_start          "Set as starting point"
+#undef qtn_wf_set_origin_msg
+#define qtn_wf_set_origin_msg          "Set starting point"
+#undef qtn_wf_share_txt
+#define qtn_wf_share_txt          "Share"
+#undef qtn_wf_share_with_a_friend
+#define qtn_wf_share_with_a_friend          "Share with a friend"
+#undef qtn_wf_show_buy_extension_query_header
+#define qtn_wf_show_buy_extension_query_header          "Account has expired"
+#undef qtn_wf_show_buy_extension_query_text
+#define qtn_wf_show_buy_extension_query_text          "Launch browser to buy an extension?"
+#undef qtn_wf_show_turn
+#define qtn_wf_show_turn          "Show turn"
+#undef qtn_wf_sms_inbox_menu_item
+#define qtn_wf_sms_inbox_menu_item          "Find text message"
+#undef qtn_wf_sms_mms_telefax
+#define qtn_wf_sms_mms_telefax          "Text messages, Multimedia messages and fax"
+#undef qtn_wf_sms_wayfinder_recipient_msg
+#define qtn_wf_sms_wayfinder_recipient_msg          "Text message: Wayfinder recipient"
+#undef qtn_wf_speed_cam
+#define qtn_wf_speed_cam          "Speed camera"
+#undef qtn_wf_startup_click_for_trial
+#define qtn_wf_startup_click_for_trial          "Click here for a free trial"
+#undef qtn_wf_startup_failed_body
+#define qtn_wf_startup_failed_body          "Startup failed. Do you wish to continue anyway? Otherwise, please contact customer.support and include the following numbers: "
+#undef qtn_wf_startup_failed_header
+#define qtn_wf_startup_failed_header          "Startup failed"
+#undef qtn_wf_startup_yes_extend
+#define qtn_wf_startup_yes_extend          "Yes, extend now!"
+#undef qtn_wf_synchronise_msg
+#define qtn_wf_synchronise_msg          "Synchronize"
+#undef qtn_wf_synchronize_with_web
+#define qtn_wf_synchronize_with_web          "Synch with Web"
+#undef qtn_wf_synchronizing_done
+#define qtn_wf_synchronizing_done          "Your favorites have been synchronized successfully with mywayfinder.com!"
+#undef qtn_wf_sync_favorites
+#define qtn_wf_sync_favorites          "Sync favorites"
+#undef qtn_wf_the_navigation_will_start
+#define qtn_wf_the_navigation_will_start          "Navigation will start automatically"
+#undef qtn_wf_tos_client
+#define qtn_wf_tos_client          "I have read the ”Terms of Service and License” (viewable at www.mywayfinder.com/terms) and I give my consent to be bound by them. I also give my consent to Wayfinder Systems AB and any company in the same Wayfinder group to utilize my personal data, my customer data and my spatial data in their business activities according to section 5 of the ”of Service and License” and the privacy policy of Wayfinder Systems AB.<br /><br />I give my consent to receive marketing messages from Wayfinder Systems AB and any company in the same Wayfinder group via: "
+#undef qtn_wf_traffic_dangerous_place
+#define qtn_wf_traffic_dangerous_place          "Dangerous place"
+#undef qtn_wf_try_switch_gps_off
+#define qtn_wf_try_switch_gps_off          "Please try restarting the GPS receiver and try again. If this does  not help restart the phone and the GPS receiver."
+#undef qtn_wf_unable_to_connect_cable_gps
+#define qtn_wf_unable_to_connect_cable_gps          "Unable to connect to the selected GPS receiver. Please make sure that it is turned on and try again."
+#undef qtn_wf_unmark
+#define qtn_wf_unmark          "Unmrk"
+#undef qtn_wf_update_map_files
+#define qtn_wf_update_map_files          "Search for new maps"
+#undef qtn_wf_user_terms_mus_accepted
+#define qtn_wf_user_terms_mus_accepted          "User terms must be accepted to use your Wayfinder application. The user terms are also available at www.mywayfinder.com. Please restart Wayfinder to try again."
+#undef qtn_wf_waiting_for_GPS_pos
+#define qtn_wf_waiting_for_GPS_pos          "Waiting for GPS position"
+#undef qtn_wf_wayfinder_services
+#define qtn_wf_wayfinder_services          "Wayfinder Services"
+#undef qtn_wf_wm_more_gps_help
+#define qtn_wf_wm_more_gps_help          "Please turn off the GPS receiver and wait a few seconds before restarting. If this does not help, restart both the phone and the GPS receiver and try again."
+#undef qtn_wf_wm_serial_gps_not_found
+#define qtn_wf_wm_serial_gps_not_found          "No connected serial port GPS receiver was found. Please connect one before trying again."
+#undef qtn_wizard_positionselect_favorite_item
+#define qtn_wizard_positionselect_favorite_item          "1\tFrom favorites"
+#include "missing_US.loc"
+#endif /* MASTER_US_LOC */

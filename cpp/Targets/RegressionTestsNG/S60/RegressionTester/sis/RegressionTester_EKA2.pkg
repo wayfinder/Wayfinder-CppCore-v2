@@ -1,0 +1,25 @@
+; Installation file for Symbian OS 9.x for generic console application
+; Installation file for RegressionTester EXE
+;
+; This is an auto-generated PKG file by Carbide.
+; This file uses variables specific to Carbide builds that will not work
+; on command-line builds. If you want to use this generated PKG file from the
+; command-line tools you will need to modify the variables with the appropriate
+; values: $(EPOCROOT), $(PLATFORM), $(TARGET)
+;
+
+;
+; UID is the exe's UID
+;
+#{"RegressionTester EXE"},(0xEA72E245),1,0,0
+
+
+;Localised Vendor name
+%{"Vendor-EN"}
+
+;Unique Vendor name
+:"Vendor"
+
+"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\RegressionTester.exe"		  -"!:\sys\bin\RegressionTester.exe"
+"..\nav2data\paramseed.txt.dist"-"!:\shared\RegressionTester\nav2data\params\paramseed.txt"
+

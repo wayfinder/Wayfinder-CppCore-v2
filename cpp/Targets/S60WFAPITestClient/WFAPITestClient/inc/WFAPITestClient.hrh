@@ -1,0 +1,12 @@
+/*
+========================================================================
+ Name        : WFAPITestClient.hrh
+ Author      : 
+ Copyright   : Your copyright notice
+ Description : 
+========================================================================
+*/
+enum TWFAPITestClientViewUids
+	{
+	EWFAPITestClientContainerViewId = 1
+	};

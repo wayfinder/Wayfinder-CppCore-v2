@@ -1,0 +1,56 @@
+TARGET               OggVorbisLib.lib
+TARGETTYPE           lib
+
+#ifdef WINSCW
+MACRO               __WINS__
+MACRO               __WINSCW__
+#else
+MACRO				__GCCE__
+#endif
+MACRO               __SYMBIAN32__
+MACRO               __SYMBIAN__
+MACRO               NAV2_USE_UTF8
+MACRO               SYMBIAN_7S
+MACRO               SYMBIAN_9
+MACRO               SYMBIAN_AVKON
+MACRO               NAV2_CLIENT_SERIES60_V3
+MACRO               NAV2_CLIENT_SERIES60_V5
+MACRO               RELEASE_DEFAULT_BRONZE_SUPER_DEMO
+
+USERINCLUDE        ..\cpp\Targets\OggVorbisLib\symbian\oggvorbisfile
+USERINCLUDE        ..\cpp\Targets\OggVorbisLib\symbian\tremor
+USERINCLUDE        ..\cpp\include
+USERINCLUDE        ..\cpp\include\symbian-r6
+USERINCLUDE        ..\cpp\arch-include\symbian-r6
+
+SYSTEMINCLUDE       \epoc32\include
+SYSTEMINCLUDE       \epoc32\include\variant
+SYSTEMINCLUDE       \epoc32\include\mmf\plugin
+SYSTEMINCLUDE       \epoc32\include\stdapis
+SYSTEMINCLUDE       \epoc32\include\stdapis\sys
+SYSTEMINCLUDE       \epoc32\include\stdapis\stlport
+SYSTEMINCLUDE       \epoc32\include\stdapis\stlport\stl
+
+SOURCEPATH           ..\cpp\Targets\OggVorbisLib\symbian\oggvorbisfile
+SOURCE               leavealloc.cpp
+
+SOURCEPATH           ..\cpp\Targets\OggVorbisLib\symbian\tremor
+SOURCE               bitwise.cpp
+SOURCE               block.cpp
+SOURCE               codebook.cpp
+SOURCE               floor0.cpp
+SOURCE               floor1.cpp
+SOURCE               framing.cpp
+SOURCE               info.cpp
+SOURCE               mapping0.cpp
+SOURCE               mdct.cpp
+SOURCE               registry.cpp
+SOURCE               res012.cpp
+SOURCE               sharedbook.cpp
+SOURCE               synthesis.cpp
+SOURCE               vorbisfile.cpp
+SOURCE               window.cpp
+
+OPTION CW -wchar_t on
+MACRO  _WCHAR_T_DECLARED
+

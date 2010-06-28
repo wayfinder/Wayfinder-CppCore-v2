@@ -1,0 +1,6 @@
+#ifndef NETREQSETTINGS_H
+#define NETREQSETTINGS_H
+
+
+
+#endif /* NETREQSETTINGS_H */

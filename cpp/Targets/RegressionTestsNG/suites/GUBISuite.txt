@@ -1,0 +1,10 @@
+GUBIWidgetTest
+GUBIRendererTest
+GUBIViewTest
+GUBICommonTest
+GUBIPropertyTest
+GUBICoreTest
+GUBIEffectsTest
+GUBISignalTest
+GUBIDemoTest
+

@@ -1,0 +1,175 @@
+/*
+============================================================================
+ Name		: RegressionTester.mmp
+ Author	  : 
+ Copyright   : Your copyright notice
+ Description : This is the project specification file for RegressionTester.
+============================================================================
+*/
+
+TARGET		  RegressionTester.exe
+TARGETTYPE	  exe
+UID			 0 0xEA72E245
+
+CAPABILITY LocalServices NetworkServices ProtServ ReadDeviceData ReadUserData SwEvent WriteDeviceData WriteUserData Location
+
+EPOCSTACKSIZE	 0x5000
+
+#ifdef WINSCW
+MACRO               __WINS__
+MACRO               __WINSCW__
+#else
+MACRO				__GCCE__
+#endif
+MACRO               __SYMBIAN32__
+MACRO               __SYMBIAN__
+MACRO               NAV2_USE_UTF8
+MACRO               SYMBIAN_7S
+MACRO               SYMBIAN_9
+MACRO               SYMBIAN_AVKON
+MACRO               NAV2_CLIENT_SERIES60_V3
+MACRO               NAV2_CLIENT_SERIES60_V5
+MACRO               NAV2_CLIENT_DEBUG
+
+USERINCLUDE	    ..\inc 
+USERINCLUDE	    ..\..\..\include 
+USERINCLUDE	    ..\..\..\Export\include\Shared 
+USERINCLUDE	    ..\..\..\..\Nav2API\Export\include
+USERINCLUDE	    ..\..\..\..\PAL\include
+USERINCLUDE	    ..\..\..\..\Nav2API\Export\include\S60
+USERINCLUDE         ..\..\..\..\Nav2API\Shared\include
+USERINCLUDE         ..\..\..\..\CommonLib\include
+USERINCLUDE	    ..\..\..\..\Nav2API\Export\include\Shared
+USERINCLUDE	    ..\..\..\..\..\include\GuiProt
+USERINCLUDE         ..\..\..\..\..\include\CombinedSearch
+USERINCLUDE	    ..\..\..\..\..\Modules\UiCtrl
+USERINCLUDE	    ..\..\..\..\..\Modules\include
+USERINCLUDE	    ..\..\..\..\Nav2lib
+USERINCLUDE	    ..\..\..\..\MapLib\Shared\include
+USERINCLUDE	    ..\..\..\..\MapLib\Export\include\Shared
+USERINCLUDE	    ..\..\..\..\MapLib\Export\internal\include
+USERINCLUDE	    ..\..\..\..\MapLib\Symbian\include
+USERINCLUDE         ..\..\..\..\MapLib\Export\include\Symbian
+USERINCLUDE         ..\..\..\..\Nav2API\S60\include
+USERINCLUDE         ..\..\..\..\CommonLib\S60\include
+USERINCLUDE         ..\..\..\..\RegressionTests\S60\include
+USERINCLUDE	    ..\..\..\..\..\arch-include\symbian-r6
+USERINCLUDE     ..\..\..\..\..\include
+
+
+SYSTEMINCLUDE       \epoc32\include  
+SYSTEMINCLUDE 	    \epoc32\include\variant 
+SYSTEMINCLUDE       \epoc32\include\ecom 
+SYSTEMINCLUDE       \epoc32\include\stdapis
+SYSTEMINCLUDE       \epoc32\include\stdapis\sys
+SYSTEMINCLUDE       \epoc32\include\stdapis\stlport
+SYSTEMINCLUDE       \epoc32\include\stdapis\stlport\stl
+ 
+SOURCEPATH	    ..\src
+SOURCE		    RegressionTester.cpp
+
+SOURCEPATH	    ..\..\..\S60\src
+SOURCE		    IapSearcherTest.cpp
+
+SOURCEPATH          ..\..\..\src
+SOURCE              PALThreadingTest.cpp
+SOURCE		    CategoryTreeTest.cpp
+SOURCE		    CellIDTest.cpp
+SOURCE		    ConnectionManagerTest.cpp
+SOURCE		    DebugTest.cpp
+SOURCE		    FavouriteRegTest.cpp
+SOURCE		    ImageDownloadTest.cpp
+SOURCE              InvalidInputSearchTest.cpp
+SOURCE		    LocationHardwareTest.cpp
+SOURCE		    LocationPositionTest.cpp
+SOURCE		    MapDownloadTest.cpp
+SOURCE		    MapLibInitTest.cpp
+SOURCE		    MapLibStandaloneTest.cpp
+SOURCE		    MapLibDeleteTest.cpp
+SOURCE		    Nav2InitTest.cpp
+SOURCE		    Nav2DeleteTest.cpp
+SOURCE		    Nav2Session.cpp
+SOURCE		    Nav2ShutdownTest.cpp
+SOURCE		    NetworkConnectionTest.cpp
+SOURCE		    OneSearchTest.cpp
+SOURCE		    ReadyToRunListenerTest.cpp
+SOURCE		    RegressionTest.cpp
+SOURCE		    RegressionTestConnectionManager.cpp
+SOURCE		    RegressionTestMarathon.cpp
+SOURCE		    SearchImagesTest.cpp
+SOURCE		    SearchOverflowTest.cpp
+SOURCE              SearchRegTest.cpp
+SOURCE		    SettingsTest.cpp
+SOURCE		    TileMapTimerTest.cpp
+SOURCE		    TunnelInterfaceRegTest.cpp
+SOURCE		    UnitTest.cpp
+SOURCE              RegressionTestEnvironment.cpp
+SOURCE		    RegressionTestErrorPrinting.cpp
+SOURCE              RegressionTestStarter.cpp
+SOURCE              RegressionTestUtil.cpp
+SOURCE		    RouteSimulationTest.cpp
+SOURCE		    PositionSimulationTest.cpp
+SOURCE		    PALNetworkRegTest.cpp
+
+
+
+STATICLIBRARY 	    CtrlHubModule.lib
+STATICLIBRARY 	    QueueSerialModule.lib
+STATICLIBRARY 	    UiCtrlModule.lib
+STATICLIBRARY 	    DestinationsModule.lib
+STATICLIBRARY 	    ParameterModule.lib
+STATICLIBRARY 	    NavServerComModule.lib
+STATICLIBRARY 	    FakeNavServerComModule.lib
+STATICLIBRARY 	    NavTask.lib
+STATICLIBRARY 	    GpsSirfModule.lib
+STATICLIBRARY 	    TcpSymbianSerialModule.lib
+STATICLIBRARY 	    GuiProt.lib
+STATICLIBRARY 	    CommonModule.lib
+STATICLIBRARY 	    Shared.lib
+STATICLIBRARY 	    Nav2lib.lib
+STATICLIBRARY 	    OggVorbisLib.lib
+STATICLIBRARY 	    CombinedSearch.lib
+STATICLIBRARY 	    CommonLib.lib
+STATICLIBRARY 	    Nav2API.lib
+STATICLIBRARY 	    MapLib.lib
+
+LIBRARY		    euser.lib
+LIBRARY             cone.lib
+LIBRARY             eikcore.lib
+LIBRARY             efsrv.lib 
+LIBRARY             charconv.lib 
+LIBRARY 	    estor.lib
+LIBRARY 	    sysutil.lib
+LIBRARY 	    estlib.lib
+LIBRARY 	    apparc.lib
+LIBRARY 	    ezlib.lib 
+LIBRARY 	    esock.lib
+LIBRARY 	    commdb.lib
+LIBRARY 	    commsdat.lib
+LIBRARY 	    libgles_cm.lib  
+LIBRARY 	    fbscli.lib
+LIBRARY 	    gdi.lib
+LIBRARY 	    insock.lib
+LIBRARY 	    centralrepository.lib
+LIBRARY 	    lbs.lib
+LIBRARY 	    ws32.lib
+LIBRARY 	    etel3rdparty.lib
+LIBRARY 	    bafl.lib
+LIBRARY 	    avkon.lib
+LIBRARY 	    aknicon.lib 
+LIBRARY 	    bitgdi.lib 
+LIBRARY 	    apsettingshandlerui.lib
+LIBRARY 	    mediaclientimage.lib
+LIBRARY 	    eiksrv.lib
+LIBRARY 	    eikcoctl.lib
+LIBRARY 	    libc.lib
+LIBRARY 	    libstdcpp.lib
+
+#ifdef ENABLE_ABIV2_MODE
+  DEBUGGABLE_UDEBONLY
+#endif
+
+EPOCHEAPSIZE 0x00002000 0x007270E0
+
+OPTION CW -wchar_t on
+MACRO  _WCHAR_T_DECLARED 

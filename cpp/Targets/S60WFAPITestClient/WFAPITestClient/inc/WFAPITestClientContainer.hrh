@@ -1,0 +1,23 @@
+/*
+========================================================================
+ Name        : WFAPITestClientContainer.hrh
+ Author      : 
+ Copyright   : Your copyright notice
+ Description : 
+========================================================================
+*/
+enum TWFAPITestClientContainerViewCommands
+	{
+	EWFAPITestClientContainerViewBetween_coordsMenuItemCommand = 0x6000,
+	EWFAPITestClientContainerViewToo_coordMenuItemCommand,
+	EWFAPITestClientContainerViewTo_favouriteMenuItemCommand,
+	EWFAPITestClientContainerViewTo_search_itemMenuItemCommand,
+	EWFAPITestClientContainerViewDefault_routeMenuItemCommand,
+	EWFAPITestClientContainerViewSimulationMenuItemCommand,
+	EWFAPITestClientContainerViewSimulation_stopMenuItemCommand,
+	EWFAPITestClientContainerViewSimulation_repeatMenuItemCommand,
+	EWFAPITestClientContainerViewLoad_to_bufferMenuItemCommand,
+	EWFAPITestClientContainerViewLoad_to_fileMenuItemCommand,
+   EWFAPITestClientContainerViewStart_LBSMenuItemCommand,
+   EWFAPITestClientContainerViewStop_LBSMenuItemCommand
+	};

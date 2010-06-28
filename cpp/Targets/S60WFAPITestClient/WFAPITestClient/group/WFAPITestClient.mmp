@@ -1,0 +1,128 @@
+
+TARGET			WFAPITestClient.exe
+UID			   0x100039CE 0xEFFE25D8
+//CAPABILITY LocalServices NetworkServices ProtServ ReadDeviceData ReadUserData SwEvent WriteDeviceData WriteUserData Location
+CAPABILITY NetworkServices ReadDeviceData SwEvent Location
+VENDORID	  	  0
+TARGETTYPE		exe
+EPOCSTACKSIZE	 0x5000
+
+SYSTEMINCLUDE 	    \epoc32\include 
+SYSTEMINCLUDE 	    \epoc32\include\variant 
+SYSTEMINCLUDE       \epoc32\include\ecom 
+SYSTEMINCLUDE       \epoc32\include\stdapis
+SYSTEMINCLUDE       \epoc32\include\stdapis\sys
+SYSTEMINCLUDE       \epoc32\include\stdapis\stlport
+SYSTEMINCLUDE       \epoc32\include\stdapis\stlport\stl
+
+USERINCLUDE 	    ..\inc 
+USERINCLUDE 	    ..\data 
+USERINCLUDE 	    ..\..\..\Nav2API\Export\include 
+USERINCLUDE 	    ..\..\..\PAL\include 
+USERINCLUDE 	    ..\..\..\Nav2API\Export\include\Shared 
+USERINCLUDE 	    ..\..\..\MapLib\Export\include\Shared 
+USERINCLUDE 	    ..\..\..\MapLib\Export\include 
+USERINCLUDE 	    ..\..\WFNav2API\include 
+USERINCLUDE 	    ..\..\WFNav2API\include\Shared 
+USERINCLUDE 	    ..\..\WFMapAPI\include 
+USERINCLUDE 	    ..\..\WFMapAPI\include\Shared 
+USERINCLUDE 	    ..\..\WFCommonAPI\include 
+USERINCLUDE 	    ..\..\WFPAL\include
+
+SOURCEPATH          ..\data
+START RESOURCE	    WFAPITestClient.rss
+HEADER
+TARGETPATH          resource\apps
+END //RESOURCE
+
+START RESOURCE	    WFAPITestClient_reg.rss
+TARGETPATH 	    \private\10003a3f\apps
+END //RESOURCE
+
+LIBRARY             estlib.lib
+LIBRARY 	    apsettingshandlerui.lib
+LIBRARY 	    commdb.lib
+LIBRARY 	    mediaclientimage.lib
+LIBRARY 	    euser.lib
+LIBRARY 	    estor.lib
+LIBRARY 	    bitgdi.lib
+LIBRARY 	    charconv.lib
+LIBRARY 	    cone.lib
+LIBRARY 	    libgles_cm.lib  
+LIBRARY 	    fbscli.lib
+LIBRARY 	    gdi.lib
+LIBRARY 	    aknicon.lib
+LIBRARY 	    avkon.lib
+LIBRARY 	    eikcore.lib
+LIBRARY 	    eiksrv.lib
+LIBRARY 	    eikcoctl.lib
+LIBRARY 	    apparc.lib
+LIBRARY 	    efsrv.lib
+LIBRARY 	    esock.lib
+LIBRARY 	    ezlib.lib
+LIBRARY 	    commsdat.lib
+LIBRARY 	    sysutil.lib
+LIBRARY 	    insock.lib
+LIBRARY 	    centralrepository.lib
+LIBRARY 	    lbs.lib
+LIBRARY 	    ws32.lib
+LIBRARY 	    etel3rdparty.lib
+LIBRARY 	    bafl.lib
+LIBRARY 	    libc.lib
+LIBRARY 	    libstdcpp.lib
+LIBRARY 	    estlib.lib
+
+STATICLIBRARY 	    CtrlHubModule.lib
+STATICLIBRARY 	    QueueSerialModule.lib
+STATICLIBRARY 	    UiCtrlModule.lib
+STATICLIBRARY 	    DestinationsModule.lib
+STATICLIBRARY 	    ParameterModule.lib
+STATICLIBRARY 	    NavServerComModule.lib
+STATICLIBRARY 	    FakeNavServerComModule.lib
+STATICLIBRARY 	    NavTask.lib
+STATICLIBRARY 	    GpsSirfModule.lib
+STATICLIBRARY 	    TcpSymbianSerialModule.lib
+STATICLIBRARY 	    GuiProt.lib
+STATICLIBRARY 	    CommonModule.lib
+STATICLIBRARY 	    Shared.lib
+STATICLIBRARY 	    Nav2lib.lib
+STATICLIBRARY 	    OggVorbisLib.lib
+STATICLIBRARY 	    CombinedSearch.lib
+STATICLIBRARY 	    CommonLib.lib
+STATICLIBRARY 	    Nav2API.lib
+STATICLIBRARY 	    MapLib.lib
+
+LANG                01
+
+START BITMAP	    WFAPITestClient.mbm
+HEADER
+TARGETPATH          \resource\apps
+SOURCEPATH          ..\gfx
+SOURCE	c12,1	list_icon.bmp list_icon_mask.bmp
+END
+
+SOURCEPATH		..\src
+
+#ifdef ENABLE_ABIV2_MODE
+DEBUGGABLE_UDEBONLY
+#endif
+
+SOURCE 		    S60ImageTester.cpp 
+SOURCE 		    SymbianTextUtil.cpp 
+SOURCE 		    WFAPITestClientContainer.cpp 
+SOURCE 		    WFAPITestClientContainerView.cpp 
+SOURCE 		    WFAPITestClientAppUi.cpp 
+SOURCE 		    WFAPITestClientApplication.cpp 
+SOURCE 		    WFAPITestClientDocument.cpp 
+SOURCE 		    LocationTester.cpp 
+SOURCE 		    S60OverlaySetup.cpp 
+SOURCE 		    S60OverlayHelpers.cpp
+
+EPOCHEAPSIZE 0x00002000 0x007270E0
+
+OPTION CW -wchar_t on
+MACRO  _WCHAR_T_DECLARED
+LIBRARY libm.lib
+
+
+

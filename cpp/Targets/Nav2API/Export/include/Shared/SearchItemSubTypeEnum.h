@@ -1,0 +1,142 @@
+/*
+  Copyright (c) 1999 - 2010, Vodafone Group Services Ltd
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+  * Neither the name of the Vodafone Group Services Ltd nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+#ifndef WFAPI_SEARCH_ITEM_SUB_TYPE_ENUM_H
+#define WFAPI_SEARCH_ITEM_SUB_TYPE_ENUM_H
+
+#include "WFAPIConfig.h"
+
+namespace WFAPI {
+
+
+/**
+ * Search Item Sub type. The type of POI. See SearchItem.
+ */
+enum SearchItemSubType {
+   COMPANY = 0,
+
+   AIRPORT = 1,
+   AMUSEMENTPARK = 2,
+   ATM = 3,
+   AUTOMOBILEDEALERSHIP = 4,
+   BANK = 5,
+   BOWLINGCENTRE = 6,
+   BUSSTATION = 7,
+   BUSINESSFACILITY = 8,
+   CASINO = 9,
+   CINEMA = 10,
+   CITYCENTRE = 11,
+   CITYHALL = 12,
+   COMMUNITYCENTRE = 13,
+   COMMUTERRAILSTATION = 14,
+   COURTHOUSE = 15,
+   EXHIBITIONORCONFERENCECENTRE = 16,
+   FERRYTERMINAL = 17,
+   FRONTIERCROSSING = 18,
+   GOLFCOURSE = 19,
+   GROCERYSTORE = 20,
+   HISTORICALMONUMENT = 21,
+   HOSPITAL = 22,
+   HOTEL = 23,
+   ICESKATINGRINK = 24,
+   LIBRARY = 25,
+   MARINA = 26,
+   MOTORINGORGANISATIONOFFICE = 27,
+   MUSEUM = 28,
+   NIGHTLIFE = 29,
+   OPENPARKINGAREA = 30,
+   PARKANDRIDE = 31,
+   PARKINGGARAGE = 32,
+   PETROLSTATION = 33,
+   POLICESTATION = 34,
+   PUBLICSPORTAIRPORT = 35,
+   RAILWAYSTATION = 36,
+   RECREATIONFACILITY = 37,
+   RENTACARFACILITY = 38,
+   RESTAREA = 39,
+   RESTAURANT = 40,
+   SCHOOL = 41,
+   SHOPPINGCENTRE = 42,
+   SKIRESORT = 43,
+   SPORTSACTIVITY = 44,
+   SPORTSCENTRE = 45,
+   THEATRE = 46,
+   TOURISTATTRACTION = 47,
+   TOURISTOFFICE = 48,
+   UNIVERSITY = 49,
+   VEHICLEREPAIRFACILITY = 50,
+   WINERY = 51,
+   POSTOFFICE = 52,
+   TRAMSTATION = 53,
+   MULTI = 54,
+   WCPOITYPE = 55,
+   SHOP = 56,
+   CEMETERY = 57,
+   INDUSTRIALCOMPLEX = 58,
+   PUBLICINDIVIDUALBUILDING = 59,
+   OTHERINDIVIDUALBUILDING = 60,
+   NOTCATEGORISED = 61,
+   UNKNOWNTYPE = 62,
+   AIRLINEACCESS = 63,
+   BEACH = 64,
+   CAMPINGGROUND = 65,
+   CARDEALER = 66,
+   CONCERTHALL = 67,
+   TOLLROAD = 68,
+   CULTURALCENTRE = 69,
+   DENTIST = 70,
+   DOCTOR = 71,
+   DRIVETHROUGHBOTTLESHOP = 72,
+   EMBASSY = 73,
+   ENTRYPOINT = 74,
+   GOVERNMENTOFFICE = 75,
+   MOUNTAINPASS = 76,
+   MOUNTAINPEAK = 77,
+   MUSICCENTRE = 78,
+   OPERA = 79,
+   PARKANDRECREATIONAREA = 80,
+   PHARMACY = 81,
+   PLACEOFWORSHIP = 82,
+   RENTACARPARKING = 83,
+   RESTAURANTAREA = 84,
+   SCENICVIEW = 85,
+   STADIUM = 86,
+   SWIMMINGPOOL = 87,
+   TENNISCOURT = 88,
+   VETRINARIAN = 89,
+   WATERSPORTS = 90,
+   YACHTBASIN = 91,
+   ZOO = 92,
+   WLAN = 93,
+   NOTYPE = 94,   
+   /// Marker for error type.
+   INVALIDPOITYPE = 95, 
+   CHURCH = 96,
+   MOSQUE = 97,
+   SYNAGOGUE = 98,
+   SUBWAYSTATION = 99,
+   CAFE = 100,
+   HINDUTEMPLE = 101,
+   BUDDHISTSITE = 102,
+   /// Sub type to public transportation stop
+   BUSSTOP = 103, 
+   /// Sub type to public transportation stop
+   TAXISTOP = 104, 
+
+   INVALIDITEMSUBTYPE = 255
+};
+
+} // End namespace WFAPI
+
+#endif // End WFAPI_SEARCH_ITEM_SUB_TYPE_ENUM_H
+

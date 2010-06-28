@@ -1,0 +1,11 @@
+/*
+========================================================================
+ Name        : WFAPITestClientContainer.loc
+ Author      : 
+ Copyright   : Your copyright notice
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_01
+#include "WFAPITestClientContainer.l01"
+#endif

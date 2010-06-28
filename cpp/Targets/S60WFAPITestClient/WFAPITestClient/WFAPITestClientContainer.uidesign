@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designerData version="1.1.0">
+  <componentManifest>
+    <manifestEntry id="com.nokia.sdt.series60.CAknView" version="1.2.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.DesignTimeContainer" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CommonBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.StatusPane" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.ControlBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.StatusPaneTitle" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.StatusPaneTitleBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CBA" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CBABase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.CCoeControl" version="1.2.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.ContainerBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuBar" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuBase" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuPane" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuItem" version="1.0.0"/>
+    <manifestEntry id="com.nokia.sdt.series60.MenuItemBase" version="1.0.0"/>
+  </componentManifest>
+  <property id="com.nokia.sdt.symbian.dm.RESOURCE_DIRECTORY_ID">data</property>
+  <property id="com.nokia.sdt.component.symbian.vendor">com.nokia.series60</property>
+  <property id="com.nokia.sdt.component.symbian.version">3.0.0</property>
+  <property id="com.nokia.sdt.symbian.dm.COMPONENT_PROVIDER">com.nokia.sdt.component.symbian.Symbian-Provider</property>
+  <property id="com.nokia.sdt.symbian.dm.INCLUDE_DIRECTORY_ID">inc</property>
+  <property id="com.nokia.sdt.symbian.dm.SOURCE_DIRECTORY_ID">src</property>
+  <property id="com.nokia.sdt.symbian.dm.SOURCEGEN_PROVIDER">com.nokia.sdt.sourcegen.Symbian-Provider</property>
+  <property id="com.nokia.sdt.symbian.dm.BUILD_DIRECTORY_ID">group</property>
+  <component id="com.nokia.sdt.series60.CAknView">
+    <property id="className">CWFAPITestClientContainerView</property>
+    <compoundProperty id="location">
+      <property id="x">52</property>
+      <property id="y">45</property>
+    </compoundProperty>
+    <property id="optionsMenu" type="componentRef">optionsMenu</property>
+    <property id="name">WFAPITestClientContainerView</property>
+    <compoundProperty id="size">
+      <property id="width">240</property>
+      <property id="height">320</property>
+    </compoundProperty>
+    <component id="com.nokia.sdt.series60.StatusPane">
+      <compoundProperty id="location">
+        <property id="x">20</property>
+      </compoundProperty>
+      <property id="name">statusPane</property>
+      <compoundProperty id="size">
+        <property id="width">204</property>
+        <property id="height">66</property>
+      </compoundProperty>
+      <component id="com.nokia.sdt.series60.StatusPaneTitle">
+        <compoundProperty id="location">
+          <property id="x">56</property>
+        </compoundProperty>
+        <property id="name">title</property>
+        <property id="titleText" type="i18n">STR_WFAPITestClientContainerView_3</property>
+        <compoundProperty id="size">
+          <property id="width">148</property>
+          <property id="height">43</property>
+        </compoundProperty>
+        <compoundProperty id="image"/>
+      </component>
+    </component>
+    <component id="com.nokia.sdt.series60.CBA">
+      <compoundProperty id="location">
+        <property id="y">288</property>
+      </compoundProperty>
+      <compoundProperty id="info">
+        <property id="leftText" type="i18n">STR_WFAPITestClientContainerView_1</property>
+        <property id="rightText" type="i18n">STR_WFAPITestClientContainerView_2</property>
+      </compoundProperty>
+      <property id="name">controlPane</property>
+      <compoundProperty id="size">
+        <property id="width">240</property>
+        <property id="height">32</property>
+      </compoundProperty>
+    </component>
+    <component id="com.nokia.sdt.series60.CCoeControl">
+      <compoundProperty id="location">
+        <property id="y">66</property>
+      </compoundProperty>
+      <property id="className">CWFAPITestClientContainer</property>
+      <property id="name">WFAPITestClientContainer</property>
+      <compoundProperty id="size">
+        <property id="width">240</property>
+        <property id="height">222</property>
+      </compoundProperty>
+    </component>
+    <component id="com.nokia.sdt.series60.MenuBar">
+      <compoundProperty id="location">
+        <property id="x">5</property>
+        <property id="y">194</property>
+      </compoundProperty>
+      <property id="name">optionsMenu</property>
+      <compoundProperty id="size">
+        <property id="height">94</property>
+        <property id="width">229</property>
+      </compoundProperty>
+      <component id="com.nokia.sdt.series60.MenuPane">
+        <compoundProperty id="location"/>
+        <property id="name">menuPane1</property>
+        <compoundProperty id="size">
+          <property id="height">94</property>
+          <property id="width">229</property>
+        </compoundProperty>
+        <component id="com.nokia.sdt.series60.MenuItem">
+          <compoundProperty id="location">
+            <property id="x">5</property>
+            <property id="y">2</property>
+          </compoundProperty>
+          <property id="name">route_testsMenuItem</property>
+          <property id="text" type="i18n">STR_WFAPITestClientContainerView_4</property>
+          <compoundProperty id="size">
+            <property id="width">214</property>
+            <property id="height">27</property>
+          </compoundProperty>
+          <component id="com.nokia.sdt.series60.MenuPane">
+            <compoundProperty id="location">
+              <property id="x">214</property>
+            </compoundProperty>
+            <property id="name">menuPane2</property>
+            <compoundProperty id="size"/>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">2</property>
+              </compoundProperty>
+              <property id="name">between_coordsMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_5</property>
+              <compoundProperty id="size"/>
+              <eventBinding id="selected" handlerDisplay="HandleBetween_coordsMenuItemSelectedL" handlerSymbol="cpp@src//WFAPITestClientContainerView.cpp/function(CWFAPITestClientContainerView::HandleBetween_coordsMenuItemSelectedL(TInt))"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">4</property>
+              </compoundProperty>
+              <property id="name">too_coordMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_6</property>
+              <compoundProperty id="size"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">6</property>
+              </compoundProperty>
+              <property id="name">to_favouriteMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_7</property>
+              <compoundProperty id="size"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">8</property>
+              </compoundProperty>
+              <property id="name">to_search_itemMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_9</property>
+              <compoundProperty id="size"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">10</property>
+              </compoundProperty>
+              <property id="name">default_routeMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_10</property>
+              <compoundProperty id="size"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">12</property>
+              </compoundProperty>
+              <property id="name">simulationMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_11</property>
+              <compoundProperty id="size"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">14</property>
+              </compoundProperty>
+              <property id="name">simulation_stopMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_13</property>
+              <compoundProperty id="size"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">16</property>
+              </compoundProperty>
+              <property id="name">simulation_repeatMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_14</property>
+              <compoundProperty id="size"/>
+            </component>
+          </component>
+        </component>
+        <component id="com.nokia.sdt.series60.MenuItem">
+          <compoundProperty id="location">
+            <property id="x">5</property>
+            <property id="y">31</property>
+          </compoundProperty>
+          <compoundProperty id="size">
+            <property id="width">214</property>
+            <property id="height">27</property>
+          </compoundProperty>
+          <component id="com.nokia.sdt.series60.MenuPane">
+            <compoundProperty id="location">
+              <property id="x">214</property>
+            </compoundProperty>
+            <property id="name">menuPane3</property>
+            <compoundProperty id="size">
+              <property id="width">152</property>
+              <property id="height">94</property>
+            </compoundProperty>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">2</property>
+              </compoundProperty>
+              <property id="name">load_to_bufferMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_15</property>
+              <compoundProperty id="size">
+                <property id="width">137</property>
+                <property id="height">27</property>
+              </compoundProperty>
+              <eventBinding id="selected" handlerDisplay="HandleLoad_to_bufferMenuItemSelectedL" handlerSymbol="cpp@src//WFAPITestClientContainerView.cpp/function(CWFAPITestClientContainerView::HandleLoad_to_bufferMenuItemSelectedL(TInt))"/>
+            </component>
+            <component id="com.nokia.sdt.series60.MenuItem">
+              <compoundProperty id="location">
+                <property id="x">5</property>
+                <property id="y">31</property>
+              </compoundProperty>
+              <property id="name">load_to_fileMenuItem</property>
+              <property id="text" type="i18n">STR_WFAPITestClientContainerView_16</property>
+              <compoundProperty id="size">
+                <property id="width">137</property>
+                <property id="height">27</property>
+              </compoundProperty>
+              <eventBinding id="selected" handlerDisplay="HandleLoad_to_fileMenuItemSelectedL" handlerSymbol="cpp@src//WFAPITestClientContainerView.cpp/function(CWFAPITestClientContainerView::HandleLoad_to_fileMenuItemSelectedL(TInt))"/>
+            </component>
+          </component>
+        </component>
+      </component>
+    </component>
+  </component>
+  <stringBundle>
+    <stringTable language="LANG_English">
+      <string id="STR_WFAPITestClientContainerView_1"/>
+      <string id="STR_WFAPITestClientContainerView_2"/>
+      <string id="STR_WFAPITestClientContainerView_3">WFAPITestClientContainer</string>
+      <string id="STR_WFAPITestClientContainerView_4">Route tests</string>
+      <string id="STR_WFAPITestClientContainerView_5">Between coords</string>
+      <string id="STR_WFAPITestClientContainerView_6">To coord</string>
+      <string id="STR_WFAPITestClientContainerView_7">To favourite</string>
+      <string id="STR_WFAPITestClientContainerView_9">To search item</string>
+      <string id="STR_WFAPITestClientContainerView_10">Default route</string>
+      <string id="STR_WFAPITestClientContainerView_11">Simulation start</string>
+      <string id="STR_WFAPITestClientContainerView_13">Simulation stop</string>
+      <string id="STR_WFAPITestClientContainerView_14">Simulation repeat</string>
+      <string id="STR_WFAPITestClientContainerView_8">Image tests</string>
+      <string id="STR_WFAPITestClientContainerView_15">Load to buffer</string>
+      <string id="STR_WFAPITestClientContainerView_16">Load to file</string>
+      <string id="STR_WFAPITestClientContainerView_17">Location tests</string>
+      <string id="STR_WFAPITestClientContainerView_18">Start LBS service</string>
+      <string id="STR_WFAPITestClientContainerView_19">Stop LBS service</string>
+    </stringTable>
+  </stringBundle>
+  <macroTable/>
+  <sourceMappingState>
+    <resourceMappings>
+      <resourceMapping instanceName="statusPane">r_wfapitest_client_container_status_pane</resourceMapping>
+      <resourceMapping instanceName="menuPane1">r_wfapitest_client_container_menu_pane1_menu_pane</resourceMapping>
+      <resourceMapping instanceName="optionsMenu">r_wfapitest_client_container_options_menu</resourceMapping>
+      <resourceMapping instanceName="menuPane3">r_wfapitest_client_container_menu_pane3</resourceMapping>
+      <resourceMapping instanceName="title">r_wfapitest_client_container_title_resource</resourceMapping>
+      <resourceMapping instanceName="menuPane2">r_wfapitest_client_container_menu_pane2</resourceMapping>
+      <resourceMapping instanceName="WFAPITestClientContainerView">r_wfapitest_client_container_wfapitest_client_container_view</resourceMapping>
+    </resourceMappings>
+    <enumMappings>
+      <enumMapping instanceName="simulation_stopMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewSimulation_stopMenuItemCommand</enumMapping>
+      <enumMapping instanceName="to_favouriteMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewTo_favouriteMenuItemCommand</enumMapping>
+      <enumMapping instanceName="title" propertyId="" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_CONTROL_TYPE">EAknCtTitlePane</enumMapping>
+      <enumMapping instanceName="load_to_fileMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewLoad_to_fileMenuItemCommand</enumMapping>
+      <enumMapping instanceName="between_coordsMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewBetween_coordsMenuItemCommand</enumMapping>
+      <enumMapping instanceName="default_routeMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewDefault_routeMenuItemCommand</enumMapping>
+      <enumMapping instanceName="simulationMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewSimulationMenuItemCommand</enumMapping>
+      <enumMapping instanceName="to_search_itemMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewTo_search_itemMenuItemCommand</enumMapping>
+      <enumMapping instanceName="title" propertyId="" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_STATUS_PANE_ID">EEikStatusPaneUidTitle</enumMapping>
+      <enumMapping instanceName="WFAPITestClientContainerView" propertyId="" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_VIEW_UID">EWFAPITestClientContainerViewId</enumMapping>
+      <enumMapping instanceName="simulation_repeatMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewSimulation_repeatMenuItemCommand</enumMapping>
+      <enumMapping instanceName="too_coordMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewToo_coordMenuItemCommand</enumMapping>
+      <enumMapping instanceName="load_to_bufferMenuItem" propertyId="command" nameAlgorithm="com.nokia.sdt.component.symbian.NAME_ALG_COMMANDS">EWFAPITestClientContainerViewLoad_to_bufferMenuItemCommand</enumMapping>
+    </enumMappings>
+    <arrayMappings/>
+  </sourceMappingState>
+  <generatedFiles>
+    <file>src/wfapitestclientcontainer.cpp</file>
+    <file>inc/wfapitestclientcontainerview.h</file>
+    <file>inc/wfapitestclientcontainer.h</file>
+    <file>src/wfapitestclientcontainerview.cpp</file>
+    <file>data/wfapitestclient.rss</file>
+    <file>inc/wfapitestclient.hrh</file>
+    <file>data/wfapitestclientcontainer.rssi</file>
+    <file>inc/wfapitestclientcontainer.hrh</file>
+    <file>data/wfapitestclient.loc</file>
+    <file>data/wfapitestclient.l01</file>
+    <file>data/wfapitestclientcontainer.loc</file>
+    <file>data/wfapitestclientcontainer.l01</file>
+  </generatedFiles>
+</designerData>

@@ -1,0 +1,13 @@
+/*
+========================================================================
+ Name        : WFAPITestClient.l01
+ Author      : 
+ Copyright   : Your copyright notice
+ Description : 
+========================================================================
+*/
+// localized strings for language: UK English (01)
+#define STR_WFAPITestClientApplication_1 ""
+#define STR_WFAPITestClientApplication_2 ""
+#define STR_WFAPITestClientApplication_3 "WFAPITestClient"
+#define STR_WFAPITestClientApplication_4 "WFAPITestClient"

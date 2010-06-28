@@ -1,0 +1,29 @@
+* Change OriginTypes into more self-explanatory names (Network, Read/Write)
+* Change release in BufferRequester to releaseBuffer
+* Change BufferRequester module name to BufferRequesting
+* Change zoom() method in MapProjection to setZoom
+* Find the Pascal programmers who were responsible for tile indexing in
+  Mercator bitmaps and punish them accordingly.
+* Add forward declare of OriginType for BufferRequestListener
+* Add namespacing  (also for defines)
+* Remove TileMapHandler dependency in ExternalRenderer
+* Refactor out vector drawing code from ExternalRenderer into separate class
+* Enable -Wall and Werror and suffer the consequences
+* Remove MapDrawingInterface and make all things rely upon the MapProjection instead.
+  Add possibility to batch map projection updates.
+* Reduce MapDrawingInterface
+* Move BufferRequesting in ImageMapModule to helper class
+* Create NullMapDrawingInterface for the MapManipulator so that all map related
+  operational changes will go through MapProjectionListener updates
+* Create MapLibOperationHandler (inherits WFAPI::MapOperationInterface) which
+  maps all operation calls to MapProjection directly.
+* Change name from ImageMapGridBox to GridBox
+* Deprecate rotateLeftDeg?
+* Move AppWindow -> Widget
+* Find a place to expose ExternalRenderer.
+  That one coupled with MapProjection is needed to implement MapOperationInterface.
+  Right now it's just thrown into ImageMapModule.
+* For some reason the values needs to be negated when moving the map around the Y-axis with MapOperationInterface::move
+  Need to find out if this is just an error in the documentation or in the code.
+* Rewrite MapLibKeyInterface. Right now it needs a MapManipulator and a NullDrawingInterface, but it really only operates
+  on MapOperationHandler (which is good). However these two extra objects needs to be instanciated explicitly at the moment.

@@ -1,0 +1,13 @@
+
+PRJ_PLATFORMS
+WINSCW ARMV5 GCCE
+
+PRJ_EXPORTS
+
+PRJ_MMPFILES
+
+gnumakefile icons_aif_scalable_dc.mk
+
+
+gnumakefile Emulator_resources.mk
+WFAPITestClient.mmp

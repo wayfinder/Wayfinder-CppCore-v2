@@ -1,0 +1,143 @@
+/*
+========================================================================
+ Name        : WFAPITestClientContainer.rssi
+ Author      : 
+ Copyright   : Your copyright notice
+ Description : 
+========================================================================
+*/
+#include "WFAPITestClientContainer.hrh"
+#include "WFAPITestClientContainer.loc"
+
+RESOURCE AVKON_VIEW r_wfapitest_client_container_wfapitest_client_container_view
+	{
+	cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+	menubar = r_wfapitest_client_container_options_menu;
+	toolbar = 0;
+	}
+RESOURCE MENU_BAR r_wfapitest_client_container_options_menu
+	{titles =
+			{
+			MENU_TITLE
+				{
+				menu_pane = r_wfapitest_client_container_menu_pane1_menu_pane;
+				}
+			};
+
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_wfapitest_client_container_status_pane
+	{
+	panes =
+		{
+		SPANE_PANE
+			{
+			id = EEikStatusPaneUidTitle;
+			type = EAknCtTitlePane;
+			resource = r_wfapitest_client_container_title_resource;
+			}
+		};
+	}
+RESOURCE TITLE_PANE r_wfapitest_client_container_title_resource
+	{
+	txt = STR_WFAPITestClientContainerView_3;
+	}
+RESOURCE MENU_PANE r_wfapitest_client_container_menu_pane1_menu_pane
+	{
+	items =
+		{
+		MENU_ITEM
+			{
+			cascade = r_wfapitest_client_container_menu_pane2;
+			txt = STR_WFAPITestClientContainerView_4;
+			},
+		MENU_ITEM
+			{
+			cascade = r_wfapitest_client_container_menu_pane3;
+			txt = STR_WFAPITestClientContainerView_8;
+			},
+		MENU_ITEM
+			{
+			cascade = r_wfapitest_client_container_menu_pane4;
+			txt = STR_WFAPITestClientContainerView_17;
+			}
+		};
+	}
+RESOURCE MENU_PANE r_wfapitest_client_container_menu_pane2
+	{
+	items =
+		{
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewBetween_coordsMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_5;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewToo_coordMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_6;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewTo_favouriteMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_7;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewTo_search_itemMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_9;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewDefault_routeMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_10;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewSimulationMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_11;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewSimulation_stopMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_13;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewSimulation_repeatMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_14;
+			}
+		};
+	}
+RESOURCE MENU_PANE r_wfapitest_client_container_menu_pane3
+	{
+	items =
+		{
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewLoad_to_bufferMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_15;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewLoad_to_fileMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_16;
+			}
+		};
+	}
+
+RESOURCE MENU_PANE r_wfapitest_client_container_menu_pane4
+	{
+	items =
+		{
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewStart_LBSMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_18;
+			},
+		MENU_ITEM
+			{
+			command = EWFAPITestClientContainerViewStop_LBSMenuItemCommand;
+			txt = STR_WFAPITestClientContainerView_19;
+			}
+		};
+	}
