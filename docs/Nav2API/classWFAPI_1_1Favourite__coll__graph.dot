@@ -1,0 +1,12 @@
+digraph G
+{
+  edge [fontname="FreeSans.ttf",fontsize=10,labelfontname="FreeSans.ttf",labelfontsize=10];
+  node [fontname="FreeSans.ttf",fontsize=10,shape=record];
+  Node1 [label="WFAPI::Favourite",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize=10,style="dashed",label="m_description\nm_name",fontname="FreeSans.ttf"];
+  Node2 [label="WFAPI::WFString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWFAPI_1_1WFString.html"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize=10,style="dashed",label="m_infos",fontname="FreeSans.ttf"];
+  Node3 [label="WFAPI::ItemInfoArray",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWFAPI_1_1ItemInfoArray.html"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize=10,style="dashed",label="m_position",fontname="FreeSans.ttf"];
+  Node4 [label="WFAPI::WGS84Coordinate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classWFAPI_1_1WGS84Coordinate.html"];
+}
